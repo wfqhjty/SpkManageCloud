@@ -1,0 +1,70 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+    instance:
+      prefer-ip-address: true #以IP地址注册到服务中心
+      instance-id: ${spring.cloud.client.ip-address}:${server.port}
+server:
+    port: 8764
+spring:
+      application:
+        name: spk-user
+      datasource:
+          url: jdbc:mysql://127.0.0.1:3306/novice?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+          username: root
+          password: 123456
+          # 使用druid数据源
+          type: com.alibaba.druid.pool.DruidDataSource
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          druid:
+            filters: stat
+            maxActive: 20
+            initialSize: 1
+            maxWait: 60000
+            minIdle: 1
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: select 'x'
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxOpenPreparedStatements: 20
+      redis:
+        host: 127.0.0.1
+        database: 0
+        port: 6379
+        password: admin
+        timeout: 2000s
+        jedis:
+         pool:
+           max-active: 8
+           max-idle: 8
+           min-idle: 0
+           max-wait: -1ms
+      jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss sss
+#spring-boot整合mybatis
+mybatis:
+  #实体类所做包
+  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+  config-location: classpath:mybatis/mybatis-config.xml
+
+info:
+   app:
+      name: spring-boot-actuator
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]
+  endpoint:
+    health:
+      show-details: always
+#  server:
+#      servlet:
+#        context-path: /act
+#      port: 8888
