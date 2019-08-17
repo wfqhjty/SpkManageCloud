@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.spk.dao.FrameUserMapper">
-    <resultMap id="BaseResultMap" type="cn.spk.entity.FrameUser">
+<mapper namespace="cn.spk.user.dao.FrameUserMapper">
+    <resultMap id="BaseResultMap" type="cn.spk.user.entity.FrameUser">
         <id column="userid" jdbcType="INTEGER" property="userid"/>
         <result column="username" jdbcType="VARCHAR" property="username"/>
         <result column="passwd" jdbcType="VARCHAR" property="passwd"/>
@@ -34,7 +34,7 @@
         delete from frameuser
         where userid = #{userid,jdbcType=INTEGER}
     </delete>
-    <insert id="insert" parameterType="cn.spk.entity.FrameUser">
+    <insert id="insert" parameterType="cn.spk.user.entity.FrameUser">
         insert into frameuser (userid, username, passwd,
                                createdate, phone, deptname
         )
@@ -42,7 +42,7 @@
                 #{createdate,jdbcType=TIMESTAMP}, #{phone,jdbcType=VARCHAR}, #{deptname,jdbcType=VARCHAR}
         )
     </insert>
-    <insert id="insertSelective" parameterType="cn.spk.entity.FrameUser">
+    <insert id="insertSelective" parameterType="cn.spk.user.entity.FrameUser">
         insert into frameuser
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="userid != null">
@@ -85,7 +85,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="cn.spk.entity.FrameUser">
+    <update id="updateByPrimaryKeySelective" parameterType="cn.spk.user.entity.FrameUser">
         update frameuser
         <set>
             <if test="username != null">
@@ -106,7 +106,7 @@
         </set>
         where userid = #{userid,jdbcType=INTEGER}
     </update>
-    <update id="updateByPrimaryKey" parameterType="cn.spk.entity.FrameUser">
+    <update id="updateByPrimaryKey" parameterType="cn.spk.user.entity.FrameUser">
         update frameuser
         set username   = #{username,jdbcType=VARCHAR},
             passwd     = #{passwd,jdbcType=VARCHAR},

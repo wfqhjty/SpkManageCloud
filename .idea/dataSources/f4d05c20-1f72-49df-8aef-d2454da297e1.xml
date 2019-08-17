@@ -918,128 +918,67 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="231" parent="4" name="class"/>
-    <table id="232" parent="4" name="framedept"/>
-    <table id="233" parent="4" name="frameuser">
+    <table id="231" parent="4" name="framedept"/>
+    <table id="232" parent="4" name="frameuser">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="234" parent="4" name="result"/>
-    <table id="235" parent="4" name="student"/>
-    <column id="236" parent="231" name="classid">
-      <Position>1</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="237" parent="231" name="classname">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="238" parent="231" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>classid</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="239" parent="232" name="deptid">
+    <column id="233" parent="231" name="deptid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="232" name="deptname">
+    <column id="234" parent="231" name="deptname">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="232" name="deptshortname">
+    <column id="235" parent="231" name="deptshortname">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="242" parent="232" name="PRIMARY">
+    <key id="236" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>deptid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="243" parent="233" name="userid">
+    <column id="237" parent="232" name="userid">
       <Position>1</Position>
       <DataType>int(50)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="233" name="username">
+    <column id="238" parent="232" name="username">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="233" name="passwd">
+    <column id="239" parent="232" name="passwd">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="233" name="createdate">
+    <column id="240" parent="232" name="createdate">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="233" name="phone">
+    <column id="241" parent="232" name="phone">
       <Position>5</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="233" name="deptname">
+    <column id="242" parent="232" name="deptname">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="249" parent="233" name="PRIMARY">
+    <key id="243" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>userid</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="250" parent="234" name="studentid">
-      <Position>1</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="251" parent="234" name="subject">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="252" parent="234" name="testDate">
-      <Position>3</Position>
-      <DataType>timestamp|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
-    </column>
-    <column id="253" parent="234" name="achievement">
-      <Position>4</Position>
-      <DataType>int(100)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="254" parent="235" name="studentid">
-      <Position>1</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="255" parent="235" name="studentname">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="256" parent="235" name="classid">
-      <Position>3</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="257" parent="235" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>studentid</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>

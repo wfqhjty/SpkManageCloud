@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.spk.dao.FrameDeptMapper">
-    <resultMap id="BaseResultMap" type="cn.spk.entity.FrameDept">
+<mapper namespace="cn.spk.user.dao.FrameDeptMapper">
+    <resultMap id="BaseResultMap" type="cn.spk.user.entity.FrameDept">
         <id column="deptid" jdbcType="INTEGER" property="deptid"/>
         <result column="deptname" jdbcType="VARCHAR" property="deptname"/>
         <result column="deptshortname" jdbcType="VARCHAR" property="deptshortname"/>
@@ -19,13 +19,13 @@
         delete from framedept
         where deptid = #{deptid,jdbcType=INTEGER}
     </delete>
-    <insert id="insert" parameterType="cn.spk.entity.FrameDept">
+    <insert id="insert" parameterType="cn.spk.user.entity.FrameDept">
         insert into framedept (deptid, deptname, deptshortname
         )
         values (#{deptid,jdbcType=INTEGER}, #{deptname,jdbcType=VARCHAR}, #{deptshortname,jdbcType=VARCHAR}
         )
     </insert>
-    <insert id="insertSelective" parameterType="cn.spk.entity.FrameDept">
+    <insert id="insertSelective" parameterType="cn.spk.user.entity.FrameDept">
         insert into framedept
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="deptid != null">
@@ -50,7 +50,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="cn.spk.entity.FrameDept">
+    <update id="updateByPrimaryKeySelective" parameterType="cn.spk.user.entity.FrameDept">
         update framedept
         <set>
             <if test="deptname != null">
@@ -62,7 +62,7 @@
         </set>
         where deptid = #{deptid,jdbcType=INTEGER}
     </update>
-    <update id="updateByPrimaryKey" parameterType="cn.spk.entity.FrameDept">
+    <update id="updateByPrimaryKey" parameterType="cn.spk.user.entity.FrameDept">
         update framedept
         set deptname      = #{deptname,jdbcType=VARCHAR},
             deptshortname = #{deptshortname,jdbcType=VARCHAR}

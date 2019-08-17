@@ -6,12 +6,12 @@ eureka:
       prefer-ip-address: true #以IP地址注册到服务中心
       instance-id: ${spring.cloud.client.ip-address}:${server.port}
 server:
-    port: 8764
+    port: 8765
     servlet:
-      context-path: /spkuser
+      context-path: /spkdata
 spring:
       application:
-        name: spk-user
+        name: spk-data
       datasource:
           url: jdbc:mysql://127.0.0.1:3306/novice?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
           username: root
@@ -52,6 +52,7 @@ spring:
       jackson:
         time-zone: GMT+8
         date-format: yyyy-MM-dd HH:mm:ss sss
+
 #spring-boot整合mybatis
 mybatis:
   #实体类所做包
@@ -60,7 +61,7 @@ mybatis:
 
 info:
    app:
-      name: spk-user
+      name: spk-data
 
 management:
   endpoints:
