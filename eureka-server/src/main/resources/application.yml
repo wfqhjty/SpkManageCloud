@@ -9,3 +9,6 @@ eureka:
   client:
     register-with-eureka: false #表示是否将自己注册到Eureka Server上，默认为true
     fetch-registry: false       #表示是否从Eureka Server上获取注册信息，默认为true
+  server:
+    enable-self-preservation: true #开启Eureka自我保护机制
+    renewal-percent-threshold: 5 #自我保护阈值

@@ -36,8 +36,16 @@ public class JwtFilter implements Filter {
         list.add(patternContext);
         Pattern patternIndex = Pattern.compile(contextPath + "/index.*");
         list.add(patternIndex);
+        Pattern patternLogin = Pattern.compile(contextPath + "/login.*");
+        list.add(patternLogin);
+        Pattern patternRegister = Pattern.compile(contextPath + "/register.*");
+        list.add(patternRegister);
         Pattern favicon = Pattern.compile(contextPath + "/favicon.ico");
         list.add(favicon);
+        Pattern patternBasic = Pattern.compile(contextPath + "/basic/.*");
+        list.add(patternBasic);
+        Pattern patternJs = Pattern.compile(contextPath + "/js/.*");
+        list.add(patternJs);
         Pattern patternActuator = Pattern.compile(contextPath + "/actuator/*.*");
         list.add(patternActuator);
         Pattern patternUserLogin = Pattern.compile(contextPath + "/loginController/userLogin");
@@ -60,20 +68,24 @@ public class JwtFilter implements Filter {
             filterChain.doFilter(servletRequest, servletResponse);
         } else { //需要过滤器
             if (StringUtils.isBlank(authorization)) {
-                response.sendError(403, "Forbidden");
+                response.sendRedirect("login");
+                //response.sendError(403, "Forbidden");
                 return;
             }
             String uid = JwtUtil.getUid(authorization);
             if (StringUtils.isBlank(uid)) {
-                response.sendError(403, "Forbidden");
+                response.sendRedirect("login");
+                //response.sendError(403, "Forbidden");
                 return;
             }
             String result = iRedisService.get(uid);
             if (StringUtils.isBlank(result)) {
-                response.sendError(403, "Forbidden");
+                response.sendRedirect("login");
+                //response.sendError(403, "Forbidden");
                 return;
             } else if (!authorization.equals(result)) {
-                response.sendError(403, "Forbidden");
+                response.sendRedirect("login");
+                //response.sendError(403, "Forbidden");
                 return;
             }
             iRedisService.setExpire(uid, authorization);

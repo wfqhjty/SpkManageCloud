@@ -6,6 +6,7 @@ import cn.spk.user.service.IFrameUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 
 @Service
@@ -37,5 +38,10 @@ public class FrameUserServiceImpl implements IFrameUserService {
     @Override
     public void deleteByPrimaryKey(Integer uid) {
         frameUserMapper.deleteByPrimaryKey(uid);
+    }
+
+    @Override
+    public List<FrameUser> listFrameUsers() {
+        return frameUserMapper.listFrameUsers();
     }
 }

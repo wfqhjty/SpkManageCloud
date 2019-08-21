@@ -8,69 +8,60 @@
     <script src="js/vue.js"></script>
     <script src="js/axios.min.js"></script>
     <script src="js/vue-router.js"></script>
-    <style>
-        .container {
-            background-color: aquamarine;
-            margin-top: 20px;
-            width: 740px;
-            height: 300px;
-        }
-    </style>
 </head>
+
 <body>
 <div id="app">
-    <div class="container">
-        <!-- 将选中的路由渲染到 router-view 下-->
-        <router-view></router-view>
+    <div>
+        <select v-model="selected">
+            <option v-for="option in options" v-bind:value="option.value">
+                {{ option.text }}
+            </option>
+        </select>
+        <span>Selected: {{ selected }}</span>
     </div>
-</div>
-<template id="tmpl">
     <div>
         <button @click="handleClick">点击按钮</button>{{count}}次
         <button @click="exportExcel">导出人员列表</button>
         <button @click="goDetail">详情页</button>
     </div>
-</template>
+</div>
 <script>
-    var Main = {
-        template: '#tmpl',
-        data: function () {
-            return{
-                count:0
-            }
-        },
+    var Main={
+        template:'<div> <button @click="goDetail">详情页</button></div>',
         methods:{
-            handleClick() {
-                console.log('触发点击事件' + this.count++)
-            },
-            exportExcel() {
-                console.log("exportExcel");
-                window.open('/spkdata/excelExportUser');
-            },
-            goDetail() {
-                console.log("----");
-                this.$router.push({path: '/detail'}).catch(err=> {});
+            goDetail(){
+                console.log("goDetail");
+                this.$router.push({path:'/detail'});
             }
         }
     };
-    var Detail = {
-        template: '<div>详情页面</div>'
+    var Detail={
+        template:'<div>详情页面</div>'
     };
 
     var router = new VueRouter({
-        routes: [
-            {name: 'main', path: '/main', component: Main},
-            {name: 'detail', path: '/detail', component: Detail}
-        ]
+        routes:[
+            { name:'main', path: '/main', component: Main },
+            { name:'detail', path: '/detail', component: Detail }
+
+            ]
     });
 
     new Vue({
         el: "#app",
-        router: router,
-        components: {
-            app: Main
+        router:router,
+        components:{
+            app:Main
         },
         data: {
+            selected: 'rsb',
+            count: 0,
+            options: [
+                { text: '人事部', value: 'rsb' },
+                { text: '财务部', value: 'cwb' },
+                { text: '研发部', value: 'yfb' }
+            ]
         },
         created() {
             console.log('created')
@@ -85,16 +76,19 @@
             console.log(document.querySelector('button'))
         },
         methods: {
-            exportExcel() {
+            handleClick() {
+                console.log('触发点击事件' + this.count++)
+            },
+            exportExcel(){
                 console.log("exportExcel");
                 window.open('/spkdata/excelExportUser');
             },
-            goDetail() {
+            goDetail(){
                 console.log("----");
-                this.$router.push({path: '/detail'});
+                this.$router.push({path:'/detail'});
             }
         },
-        template: '<app/>'
+        template:'<app/>'
     })
 </script>
 </body>

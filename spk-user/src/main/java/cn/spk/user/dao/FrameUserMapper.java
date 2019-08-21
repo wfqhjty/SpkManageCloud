@@ -4,6 +4,8 @@ import cn.spk.user.entity.FrameUser;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface FrameUserMapper {
 
@@ -22,4 +24,6 @@ public interface FrameUserMapper {
     int updateByPrimaryKey(FrameUser record);
 
     int deleteByPrimaryKey(Integer userid);
+
+    List<FrameUser> listFrameUsers();
 }

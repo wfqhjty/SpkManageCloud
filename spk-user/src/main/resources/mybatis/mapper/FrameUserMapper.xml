@@ -12,6 +12,10 @@
     <sql id="Base_Column_List">
         userid, username, passwd, createdate, phone, deptname
     </sql>
+    <select id="listFrameUsers" resultMap="BaseResultMap">
+        select *
+        from frameuser
+    </select>
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
