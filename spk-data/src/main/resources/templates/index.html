@@ -1,71 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:v-bind="http://www.w3.org/1999/xhtml">
-
+<html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>index</title>
+    <meta charset="UTF-8">
+    <title>spk-user</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="js/vue.js"></script>
-    <script src="js/axios.min.js"></script>
-    <script src="js/vue-router.js"></script>
 </head>
-
 <body>
-<div id="app">
-    <div>
-        <select v-model="selected">
-            <option v-for="option in options" v-bind:value="option.value">
-                {{ option.text }}
-            </option>
-        </select>
-        <span>Selected: {{ selected }}</span>
-    </div>
-    <div>
-        <button @click="handleClick">点击按钮</button>{{count}}次
-        <button @click="exportExcel">导出人员列表</button>
-    </div>
-</div>
-<script>
-    new Vue({
-        el: "#app",
-        router:router,
-        data: {
-            selected: 'rsb',
-            count: 0,
-            options: [
-                { text: '人事部', value: 'rsb' },
-                { text: '财务部', value: 'cwb' },
-                { text: '研发部', value: 'yfb' }
-            ]
-        },
-        created() {
-            console.log('created')
-        },
-        mounted() {
-            console.log('mounted')
-        },
-        beforeDestroy() {
-            console.log('beforeDestroy')
-        },
-        destroyed() {
-            console.log(document.querySelector('button'))
-        },
-        methods: {
-            handleClick() {
-                console.log('触发点击事件' + this.count++)
-            },
-            exportExcel(){
-                console.log("exportExcel");
-                window.open('/spkdata/excelExportUser');
-            },
-            goDetail(){
-                console.log("----");
-                this.$router.push({path:'/detail'});
-            }
-        },
-        template:'<app/>'
-    })
-</script>
+<p>spk-data</p>
 </body>
-
 </html>
