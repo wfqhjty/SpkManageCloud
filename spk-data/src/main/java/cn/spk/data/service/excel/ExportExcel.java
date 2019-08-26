@@ -1,4 +1,4 @@
-package cn.spk.data.service.impl;
+package cn.spk.data.service.excel;
 
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -76,7 +76,7 @@ public class ExportExcel {
         //autoSizeColumn(titleMap.size());
         // 写入处理结果
         try {
-            String filename = "Gitlab代码提交汇总" + ".xls";
+            String filename = "人员汇总" + ".xls";
             //如果web项目，1、设置下载框的弹出（设置response相关参数)；2、通过httpservletresponse.getOutputStream()获取
 //            OutputStream out = new FileOutputStream("E:\\spk\\" + filedisplay);
 //            workbook.write(out);

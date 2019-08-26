@@ -2,8 +2,7 @@ package cn.spk.data.controller;
 
 import cn.spk.data.entity.Employee;
 import cn.spk.data.entity.FrameUser;
-import cn.spk.data.service.impl.ExportExcel;
-import cn.spk.data.service.impl.ExportExcelFrameUser;
+import cn.spk.data.service.excel.ExportExcel;
 import com.alibaba.fastjson.JSON;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -30,14 +29,14 @@ public class ExcelExportController {
     @GetMapping("/excelExport")
     public void excelExport(HttpServletRequest request, HttpServletResponse response) {
         /**模拟数据开始*/
-        List<Employee> staffs = new ArrayList<Employee>();
+        List<Employee> staffs = new ArrayList<>();
         staffs.add(new Employee("test01", "一组", 2017, 9, 20, 20000));
         staffs.add(new Employee("test02", "一组", 2017, 9, 20, 20000));
         staffs.add(new Employee("test03", "一组", 2017, 9, 20, 20000));
         staffs.add(new Employee("test04", "一组", 2017, 9, 20, 20000));
         staffs.add(new Employee("test05", "一组", 2017, 9, 20, 20000));
 
-        Map<String, String> titleMap = new LinkedHashMap<String, String>();
+        Map<String, String> titleMap = new LinkedHashMap<>();
         titleMap.put("name", "姓名");
         titleMap.put("clazz", "组号");
         titleMap.put("year", "年份");
@@ -64,20 +63,6 @@ public class ExcelExportController {
         HttpEntity<Object> requestEntity = new HttpEntity<>(requestHeaders);
         ResponseEntity<String> result = restTemplate.exchange(url, HttpMethod.GET, requestEntity, String.class);
         List<FrameUser> staffs = JSON.parseArray(result.getBody(), FrameUser.class);
-        Map<String, String> titleMap = new LinkedHashMap<>();
-        titleMap.put("userid", "用户ID");
-        titleMap.put("username", "用户名");
-        titleMap.put("passwd", "密码");
-        titleMap.put("createdate", "创建时间");
-        titleMap.put("phone", "手机");
-        titleMap.put("deptname", "部门");
-        String sheetName = "人员信息导出";
-        System.out.println("start导出");
-        long start = System.currentTimeMillis();
-        ExportExcelFrameUser.excelExport(staffs, titleMap, sheetName, response);
-        long end = System.currentTimeMillis();
-        System.out.println("end导出");
-        System.out.println("耗时：" + (end - start) + "ms");
     }
 
 }
