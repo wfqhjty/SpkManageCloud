@@ -62,11 +62,14 @@ public class JwtFilter implements Filter {
         String url = request.getRequestURI();
         //每个请求都检测header
         String authorization = request.getHeader("Authorization");
+        String source = request.getHeader("source");
         //是否需要过滤
         boolean noNeedFilter = isNoNeedFilter(url);
         if (noNeedFilter) { //不需要过滤直接传给下一个过滤器
             filterChain.doFilter(servletRequest, servletResponse);
-        } else { //需要过滤器
+        } else if ("source".equals(source))
+            filterChain.doFilter(servletRequest, servletResponse);
+        else { //需要过滤器
             if (StringUtils.isBlank(authorization)) {
                 response.sendRedirect("login");
                 //response.sendError(403, "Forbidden");
