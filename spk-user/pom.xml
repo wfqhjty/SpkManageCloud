@@ -112,6 +112,12 @@
             <artifactId>java-jwt</artifactId>
             <version>3.3.0</version>
         </dependency>
+        <!-- cors -->
+        <dependency>
+            <groupId>org.ebaysf.web</groupId>
+            <artifactId>cors-filter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
         <!-- 热部署 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
