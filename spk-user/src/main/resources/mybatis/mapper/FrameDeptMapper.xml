@@ -9,6 +9,10 @@
     <sql id="Base_Column_List">
         deptid, deptname, deptshortname
     </sql>
+    <select id="listFrameDepts" resultMap="BaseResultMap">
+        select *
+        from framedept
+    </select>
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
