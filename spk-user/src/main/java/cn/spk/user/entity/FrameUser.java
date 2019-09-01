@@ -1,5 +1,7 @@
 package cn.spk.user.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.Date;
 
 public class FrameUser {
@@ -9,6 +11,7 @@ public class FrameUser {
 
     private String passwd;
 
+    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date createdate;
 
     private String phone;

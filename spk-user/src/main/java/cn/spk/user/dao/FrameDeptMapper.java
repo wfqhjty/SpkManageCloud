@@ -1,7 +1,10 @@
 package cn.spk.user.dao;
 
 import cn.spk.user.entity.FrameDept;
+import cn.spk.user.entity.FrameUser;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository
 public interface FrameDeptMapper {
@@ -16,4 +19,6 @@ public interface FrameDeptMapper {
     int updateByPrimaryKeySelective(FrameDept record);
 
     int updateByPrimaryKey(FrameDept record);
+
+    List<FrameDept> listFrameDepts();
 }

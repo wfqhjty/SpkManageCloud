@@ -22,6 +22,11 @@ public class FrameUserController {
     @Resource
     private IFrameUserService userService;
 
+    @GetMapping("/getFrameUsers")
+    public List<FrameUser> getFrameUsers() {
+        return userService.listFrameUsers();
+    }
+
     @PostMapping("/selectByPrimaryKey")
     @LogAnnotation()
     public FrameUser selectByPrimaryKey(@RequestBody String params, HttpServletRequest request) {
@@ -31,9 +36,9 @@ public class FrameUserController {
         return user;
     }
 
-    @GetMapping("/getUsers")
-    public List<FrameUser> getUsers() {
-        return userService.listFrameUsers();
+    @PostMapping("addFrameUser")
+    public void addFrameUser(@RequestBody String params, HttpServletRequest request) {
+        JSONObject jsonObject = JSON.parseObject(params);
     }
 
 }
