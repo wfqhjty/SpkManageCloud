@@ -11,7 +11,7 @@ public class FrameUser {
 
     private String passwd;
 
-    @JSONField(format="yyyy-MM-dd HH:mm:ss")
+    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date createdate;
 
     private String phone;
