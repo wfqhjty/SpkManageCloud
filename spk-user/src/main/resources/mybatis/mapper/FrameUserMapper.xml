@@ -7,14 +7,20 @@
         <result column="passwd" jdbcType="VARCHAR" property="passwd"/>
         <result column="createdate" jdbcType="TIMESTAMP" property="createdate"/>
         <result column="phone" jdbcType="VARCHAR" property="phone"/>
+        <result column="deptid" jdbcType="INTEGER" property="deptid"/>
         <result column="deptname" jdbcType="VARCHAR" property="deptname"/>
     </resultMap>
     <sql id="Base_Column_List">
-        userid, username, passwd, createdate, phone, deptname
+        userid, username, passwd, createdate, phone,deptid, deptname
     </sql>
     <select id="listFrameUsers" resultMap="BaseResultMap">
         select *
         from frameuser
+    </select>
+    <select id="selectByDeptid" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select *
+        from frameuser
+        where deptid = #{deptid,jdbcType=INTEGER}
     </select>
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         select
@@ -40,10 +46,10 @@
     </delete>
     <insert id="insert" parameterType="cn.spk.user.entity.FrameUser">
         insert into frameuser (userid, username, passwd,
-                               createdate, phone, deptname
+                               createdate, phone,deptid, deptname
         )
         values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{passwd,jdbcType=VARCHAR},
-                #{createdate,jdbcType=TIMESTAMP}, #{phone,jdbcType=VARCHAR}, #{deptname,jdbcType=VARCHAR}
+                #{createdate,jdbcType=TIMESTAMP}, #{phone,jdbcType=VARCHAR}, #{deptid,jdbcType=INTEGER}, #{deptname,jdbcType=VARCHAR}
         )
     </insert>
     <insert id="insertSelective" parameterType="cn.spk.user.entity.FrameUser">
@@ -63,6 +69,9 @@
             </if>
             <if test="phone != null">
                 phone,
+            </if>
+            <if test="deptid != null">
+                deptid,
             </if>
             <if test="deptname != null">
                 deptname,
@@ -84,6 +93,9 @@
             <if test="phone != null">
                 #{phone,jdbcType=VARCHAR},
             </if>
+            <if test="deptid != null">
+                #{deptid,jdbcType=INTEGER},
+            </if>
             <if test="deptname != null">
                 #{deptname,jdbcType=VARCHAR},
             </if>
@@ -104,6 +116,9 @@
             <if test="phone != null">
                 phone = #{phone,jdbcType=VARCHAR},
             </if>
+            <if test="deptid != null">
+                phone = #{deptid,jdbcType=INTEGER},
+            </if>
             <if test="deptname != null">
                 deptname = #{deptname,jdbcType=VARCHAR},
             </if>
@@ -116,6 +131,7 @@
             passwd     = #{passwd,jdbcType=VARCHAR},
             createdate = #{createdate,jdbcType=TIMESTAMP},
             phone      = #{phone,jdbcType=VARCHAR},
+            deptid      = #{deptid,jdbcType=INTEGER},
             deptname   = #{deptname,jdbcType=VARCHAR}
         where userid = #{userid,jdbcType=INTEGER}
     </update>

@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>spk-user</title>
+    <title>spk-user-list</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
+
 <body>
-<p>spk-data</p>
+<div id="app">
+    <el-tree :data="dept" :props="defaultProps" @node-click="handleNodeClick"></el-tree>
+</div>
 </body>
+<!-- 必须先引入vue  后使用element-ui -->
+<script src="vue.min.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            dept: [],
+            defaultProps: {
+                children: 'children',
+                label: 'label'
+            }
+        },
+        methods: {
+            handleNodeClick(data) {
+                console.log(data.id);
+            }
+        },
+        created() {
+            axios.get('http://localhost:8765/spkdata/stepDepts').then(response => {
+                this.dept = response.data;
+        }).catch(error => {
+                console.log(error);
+            alert('网络错误，不能访问');
+        })
+        }
+    });
+</script>
+
 </html>

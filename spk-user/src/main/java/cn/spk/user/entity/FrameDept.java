@@ -7,6 +7,8 @@ public class FrameDept {
 
     private String deptshortname;
 
+    private Integer parentid;
+
     public Integer getDeptid() {
         return deptid;
     }
@@ -29,5 +31,13 @@ public class FrameDept {
 
     public void setDeptshortname(String deptshortname) {
         this.deptshortname = deptshortname == null ? null : deptshortname.trim();
+    }
+
+    public Integer getParentid() {
+        return parentid;
+    }
+
+    public void setParentid(Integer parentid) {
+        this.parentid = parentid;
     }
 }

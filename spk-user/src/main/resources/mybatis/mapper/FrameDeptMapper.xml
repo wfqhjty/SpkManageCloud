@@ -5,9 +5,10 @@
         <id column="deptid" jdbcType="INTEGER" property="deptid"/>
         <result column="deptname" jdbcType="VARCHAR" property="deptname"/>
         <result column="deptshortname" jdbcType="VARCHAR" property="deptshortname"/>
+        <result column="parentid" jdbcType="INTEGER" property="parentid"/>
     </resultMap>
     <sql id="Base_Column_List">
-        deptid, deptname, deptshortname
+        deptid, deptname, deptshortname, parentid
     </sql>
     <select id="listFrameDepts" resultMap="BaseResultMap">
         select *
@@ -24,9 +25,10 @@
         where deptid = #{deptid,jdbcType=INTEGER}
     </delete>
     <insert id="insert" parameterType="cn.spk.user.entity.FrameDept">
-        insert into framedept (deptid, deptname, deptshortname
+        insert into framedept (deptid, deptname, deptshortname, parentid
         )
-        values (#{deptid,jdbcType=INTEGER}, #{deptname,jdbcType=VARCHAR}, #{deptshortname,jdbcType=VARCHAR}
+        values (#{deptid,jdbcType=INTEGER}, #{deptname,jdbcType=VARCHAR}, #{deptshortname,jdbcType=VARCHAR},
+                #{parentid,jdbcType=INTEGER}
         )
     </insert>
     <insert id="insertSelective" parameterType="cn.spk.user.entity.FrameDept">
@@ -41,6 +43,9 @@
             <if test="deptshortname != null">
                 deptshortname,
             </if>
+            <if test="parentid != null">
+                parentid,
+            </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="deptid != null">
@@ -51,6 +56,9 @@
             </if>
             <if test="deptshortname != null">
                 #{deptshortname,jdbcType=VARCHAR},
+            </if>
+            <if test="parentid != null">
+                #{parentid,jdbcType=INTEGER},
             </if>
         </trim>
     </insert>
@@ -63,13 +71,17 @@
             <if test="deptshortname != null">
                 deptshortname = #{deptshortname,jdbcType=VARCHAR},
             </if>
+            <if test="parentid != null">
+                parentid = #{parentid,jdbcType=INTEGER},
+            </if>
         </set>
         where deptid = #{deptid,jdbcType=INTEGER}
     </update>
     <update id="updateByPrimaryKey" parameterType="cn.spk.user.entity.FrameDept">
         update framedept
         set deptname      = #{deptname,jdbcType=VARCHAR},
-            deptshortname = #{deptshortname,jdbcType=VARCHAR}
+            deptshortname = #{deptshortname,jdbcType=VARCHAR},
+            parentid      = #{parentid,jdbcType=INTEGER}
         where deptid = #{deptid,jdbcType=INTEGER}
     </update>
 </mapper>

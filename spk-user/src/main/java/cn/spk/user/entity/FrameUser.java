@@ -16,6 +16,8 @@ public class FrameUser {
 
     private String phone;
 
+    private Integer deptid;
+
     private String deptname;
 
     public Integer getUserid() {
@@ -56,6 +58,14 @@ public class FrameUser {
 
     public void setPhone(String phone) {
         this.phone = phone == null ? null : phone.trim();
+    }
+
+    public Integer getDeptid() {
+        return deptid;
+    }
+
+    public void setDeptid(Integer deptid) {
+        this.deptid = deptid;
     }
 
     public String getDeptname() {

@@ -12,9 +12,10 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 
 @RestController
-@RequestMapping("/frameUserController")
+@RequestMapping("/user")
 public class FrameUserController {
 
     private static final Logger logger = LoggerFactory.getLogger(FrameUserController.class);
@@ -22,23 +23,34 @@ public class FrameUserController {
     @Resource
     private IFrameUserService userService;
 
-    @GetMapping("/getFrameUsers")
-    public List<FrameUser> getFrameUsers() {
+    @PostMapping("/queryAll")
+    public List<FrameUser> queryAll() {
         return userService.listFrameUsers();
     }
 
-    @PostMapping("/selectByPrimaryKey")
     @LogAnnotation()
-    public FrameUser selectByPrimaryKey(@RequestBody String params, HttpServletRequest request) {
-        JSONObject jsonObject = JSON.parseObject(params);
-        String userid = jsonObject.getString("userid");
-        FrameUser user = userService.selectByPrimaryKey(Integer.parseInt(userid));
+    @PostMapping(value = "/query/{uid}")
+    public FrameUser queryUid(@PathVariable("uid") Integer uid) {
+        FrameUser user = userService.selectByPrimaryKey(uid);
         return user;
     }
 
-    @PostMapping("addFrameUser")
-    public void addFrameUser(@RequestBody String params, HttpServletRequest request) {
-        JSONObject jsonObject = JSON.parseObject(params);
+    @PostMapping("/queryByDeptId")
+    public List<FrameUser> queryByDeptId(@RequestBody Map map) {
+        int deptid = (Integer) map.get("deptid");
+        return userService.selectByDeptid(deptid);
+    }
+
+    @PostMapping("/addMap")
+    public void addMap(@RequestBody Map map) {
+        System.out.println(1111);
+        System.out.println(1111);
+        System.out.println(1111);
+    }
+
+    @PostMapping("addBean")
+    public void addMap(@RequestBody FrameUser user) {
+        userService.insert(user);
     }
 
 }

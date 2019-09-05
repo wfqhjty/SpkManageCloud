@@ -1,9 +1,11 @@
 package cn.spk.user.util;
+
 import com.alibaba.fastjson.JSONObject;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTDecodeException;
+import com.auth0.jwt.interfaces.Claim;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
 import java.io.UnsupportedEncodingException;
@@ -54,7 +56,9 @@ public class JwtUtil {
     public static String getUsername(String token) {
         try {
             DecodedJWT jwt = JWT.decode(token);
-            return jwt.getClaim("username").asString();
+            //Claim claim=jwt.getClaim("username");
+            Claim claim = jwt.getClaim("username");
+            return claim.asString().trim();
         } catch (JWTDecodeException e) {
             return null;
         }
@@ -83,11 +87,11 @@ public class JwtUtil {
      */
     public static String sign(String username, String uid) {
         try {
-//            过期时间
+            //过期时间
             Date date = new Date(System.currentTimeMillis() + EXPIRE_TIME);
-//            私钥及加密算法
+            //私钥及加密算法
             Algorithm algorithm = Algorithm.HMAC256(TOKEN_SECRET);
-//            设置头部信息
+            //设置头部信息
             Map<String, Object> header = new HashMap<>(2);
             header.put("typ", "JWT");
             header.put("alg", "HS256");

@@ -26,4 +26,6 @@ public interface FrameUserMapper {
     int deleteByPrimaryKey(Integer userid);
 
     List<FrameUser> listFrameUsers();
+
+    List<FrameUser> selectByDeptid(Integer deptid);
 }

@@ -44,4 +44,9 @@ public class FrameUserServiceImpl implements IFrameUserService {
     public List<FrameUser> listFrameUsers() {
         return frameUserMapper.listFrameUsers();
     }
+
+    @Override
+    public List<FrameUser> selectByDeptid(Integer deptid) {
+        return frameUserMapper.selectByDeptid(deptid);
+    }
 }

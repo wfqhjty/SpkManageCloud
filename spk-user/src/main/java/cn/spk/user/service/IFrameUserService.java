@@ -17,4 +17,6 @@ public interface IFrameUserService {
     void deleteByPrimaryKey(Integer uid);
 
     List<FrameUser> listFrameUsers();
+
+    List<FrameUser> selectByDeptid(Integer deptid);
 }
