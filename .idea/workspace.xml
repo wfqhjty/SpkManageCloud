@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="页面增加Vue">
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/SecondCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/resources/static/vue-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-data/src/main/resources/static/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/service/excel/ExportExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameDept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="页面增加Vue" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -237,7 +199,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -258,6 +220,94 @@
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="callable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,7 +531,7 @@
       <workItem from="1567393886131" duration="7190000" />
       <workItem from="1567475890554" duration="7722000" />
       <workItem from="1567558935348" duration="4271000" />
-      <workItem from="1567667779548" duration="9633000" />
+      <workItem from="1567667779548" duration="9949000" />
     </task>
     <task id="LOCAL-00001" summary="修改图标">
       <created>1566379358538</created>
@@ -673,7 +723,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155566000" />
+    <option name="totallyTimeSpent" value="155882000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
