@@ -17,28 +17,4 @@ import javax.annotation.Resource;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class ClientUserTest {
-
-    @Resource
-    private RestTemplate restTemplate;
-
-    @Autowired
-    private ClientUserConfigProperties clientUserConfigProperties;
-
-    @Test
-    public void getUsers() {
-        String url = clientUserConfigProperties.getUrl();
-        System.out.println("url=" + url);
-        String body = Util.httpExchangeGet(url + "frameUserController/getFrameUsers", restTemplate);
-        System.out.println(JSON.parseArray(body, FrameUser.class));
-    }
-
-    @Test
-    public void getDepts(){
-        String url = clientUserConfigProperties.getUrl();
-        System.out.println("url=" + url);
-        String body = Util.httpExchangeGet(url + "frameDeptController/getFrameDepts", restTemplate);
-        System.out.println(JSON.parseArray(body, FrameDept.class));
-    }
-
-
 }

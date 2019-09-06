@@ -29,8 +29,10 @@ public class UserController {
     @PostMapping("/getUsers")
     public List<FrameUser> getUsers() {
         String url = clientUserConfigProperties.getUrl();
-        System.out.println("url=" + url);
-        String body = Util.httpExchangeGet(url + "user/queryAll", restTemplate);
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.add("source", "source");
+        Map<String, String> param = new HashMap<>();
+        String body = Util.httpExchangePost(url + "user/queryAll", restTemplate, httpHeaders, param);
         System.out.println(JSON.parseArray(body, FrameUser.class));
         return JSON.parseArray(body, FrameUser.class);
     }
@@ -39,12 +41,11 @@ public class UserController {
     public List<FrameUser> getUsersByDeptid(@RequestBody Map map) {
         String url = clientUserConfigProperties.getUrl();
         HttpHeaders httpHeaders = new HttpHeaders();
-        httpHeaders.add("Content-Type", "application/json");
+        httpHeaders.add("source", "source");
         Map<String, Integer> param = new HashMap<>();
         param.put("deptid", (Integer) map.get("deptid"));
         HttpEntity<Object> request = new HttpEntity<>(param, httpHeaders);
-        String str = restTemplate.postForObject(url + "user/queryByDeptId", request, String.class);
-        System.out.println(str);
+        String str = Util.httpExchangePost(url + "user/queryByDeptId", restTemplate, httpHeaders, param);
         return JSON.parseArray(str, FrameUser.class);
     }
 

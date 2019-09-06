@@ -3,10 +3,12 @@ package cn.spk.data.controller;
 
 import cn.spk.data.conf.ClientUserConfigProperties;
 import cn.spk.data.entity.FrameDept;
+import cn.spk.data.entity.FrameUser;
 import cn.spk.data.util.Util;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +16,9 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class DeptController {
@@ -24,17 +28,23 @@ public class DeptController {
     @Autowired
     private ClientUserConfigProperties clientUserConfigProperties;
 
-    @GetMapping("/getDepts")
+    @PostMapping("/getDepts")
     public List<FrameDept> getDepts() {
         String url = clientUserConfigProperties.getUrl();
-        String body = Util.httpExchangeGet(url + "dept/queryAll", restTemplate);
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.add("source", "source");
+        Map<String, String> param = new HashMap<>();
+        String body = Util.httpExchangePost(url + "dept/queryAll", restTemplate, httpHeaders, param);
         return JSON.parseArray(body, FrameDept.class);
     }
 
     @PostMapping("/stepDepts")
     public List<JSONObject> stepDepts() {
         String url = clientUserConfigProperties.getUrl();
-        String body = Util.httpExchangeGet(url + "dept/queryAll", restTemplate);
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.add("source", "source");
+        Map<String, String> param = new HashMap<>();
+        String body = Util.httpExchangePost(url + "dept/queryAll", restTemplate, httpHeaders, param);
         List<FrameDept> result = JSON.parseArray(body, FrameDept.class);
         List<JSONObject> objectList = new ArrayList<>();
         for (FrameDept frameDept : result) {

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>spk-user-list</title>
+    <title>spk-data</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- 引入样式 -->
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -35,7 +35,7 @@
             }
         },
         created() {
-            axios.get('http://localhost:8765/spkdata/stepDepts').then(response => {
+            axios.post('http://localhost:8765/spkdata/stepDepts').then(response => {
                 this.dept = response.data;
         }).catch(error => {
                 console.log(error);
