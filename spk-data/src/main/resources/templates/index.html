@@ -11,7 +11,49 @@
 
 <body>
 <div id="app">
-    <el-tree :data="dept" :props="defaultProps" @node-click="handleNodeClick"></el-tree>
+    <el-container>
+        <el-header height="15px"></el-header>
+        <el-container>
+            <el-aside width="250px">
+                <el-tree :data="dept" :props="defaultProps" @node-click="handleNodeClick"></el-tree>
+            </el-aside>
+            <el-container>
+                <el-header>
+                    <el-row>
+                        <el-col :span="12">
+                            <div class="block">
+                                <span class="demonstration">日期：</span>
+                                <el-date-picker v-model="datevalue" type="date" placeholder="选择日期">
+                                </el-date-picker>
+                            </div>
+                        </el-col>
+                        <el-col :span="12">
+                            <span class="demonstration">选择框：</span>
+                            <el-select v-model="selectvalue" placeholder="请选择">
+                                <el-option v-for="item in options" :key="item.value" :label="item.label"
+                                           :value="item.value">
+                                </el-option>
+                            </el-select>
+                        </el-col>
+                    </el-row>
+                </el-header>
+                <el-main>
+                    <el-table :data="tableData" stripe style="width: 100%">
+                        <el-table-column prop="createdate" label="创建日期" width="180">
+                        </el-table-column>
+                        <el-table-column prop="username" label="用户名" width="180">
+                        </el-table-column>
+                        <el-table-column prop="userid" label="用户标志" width="100">
+                        </el-table-column>
+                        <el-table-column prop="phone" label="手机号">
+                        </el-table-column>
+                        <el-table-column prop="passwd" label="登录密码">
+                        </el-table-column>
+                    </el-table>
+                </el-main>
+            </el-container>
+        </el-container>
+    </el-container>
 </div>
 </body>
 <!-- 必须先引入vue  后使用element-ui -->
@@ -27,11 +69,27 @@
             defaultProps: {
                 children: 'children',
                 label: 'label'
-            }
+            },
+            options: [{
+                value: '选项1',
+                label: 'AAA'
+            }, {
+                value: '选项2',
+                label: 'BBB'
+            }],
+            datevalue: '',
+            selectvalue: '',
+            tableData: []
         },
         methods: {
             handleNodeClick(data) {
-                console.log(data.id);
+                let param = { "deptid": data.id };
+                axios.post('http://localhost:8765/spkdata/getUsersByDeptid', param).then(response => {
+                    this.tableData = response.data;
+            }).catch(error => {
+                    console.log(error);
+                alert('网络错误，不能访问');
+            })
             }
         },
         created() {
