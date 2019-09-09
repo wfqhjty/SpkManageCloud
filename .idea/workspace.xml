@@ -246,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +256,11 @@
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,14 +275,6 @@
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +283,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -295,33 +290,19 @@
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -329,62 +310,6 @@
               <item name="spk-data" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="callable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -407,172 +332,13 @@
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
               <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -635,7 +401,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2695585" />
+    <option name="contentProportion" value="0.40356565" />
   </component>
   <component name="RunManager" selected="Spring Boot.SpkDataApplication">
     <configuration name="CachedThreadPoolCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1001,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171067000" />
+    <option name="totallyTimeSpent" value="171091000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
