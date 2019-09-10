@@ -29,16 +29,18 @@ public class NotNullAspect {
     public Object doAround(ProceedingJoinPoint pjp) throws Throwable {
         Object[] args = pjp.getArgs();//获取注解方法的入参
         MethodInvocationProceedingJoinPoint methodInvocationProceedingJoinPoint = (MethodInvocationProceedingJoinPoint) pjp;
-        MethodSignature signature = ((MethodSignature) pjp.getSignature());
+        MethodSignature signature = ((MethodSignature) methodInvocationProceedingJoinPoint.getSignature());
         //得到拦截的方法
         Method method = signature.getMethod();
-         NotNull notNull = method.getAnnotation(NotNull.class);
+        NotNull notNull = method.getAnnotation(NotNull.class);
         String[] require = notNull.requires();
         Object param = null;
         for (Object object : args) {
             if (object.getClass() == notNull.param())
                 param = object;
         }
+        if(param==null)
+            System.out.println("annotation missing parameter");
         for (String str : require) {
             if (param instanceof Map) {
                 Map map = (Map) param;
