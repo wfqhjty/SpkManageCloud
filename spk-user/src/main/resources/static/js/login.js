@@ -31,6 +31,7 @@ $(function () {
                         window.localStorage.setItem("novicetoken", data.token);
                         window.location.href = "index";
                     }
+
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
                     alert("您的用户名或密码不正确");
