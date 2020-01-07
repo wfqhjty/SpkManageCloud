@@ -1,4 +1,4 @@
-package cn.spk.data.filter;
+package cn.spk.base.filter;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package cn.spk.user.annotation;
+package cn.spk.base.annotation;
 
 import org.springframework.web.bind.annotation.Mapping;
 

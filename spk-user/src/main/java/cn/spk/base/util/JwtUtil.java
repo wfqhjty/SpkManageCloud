@@ -1,4 +1,4 @@
-package cn.spk.user.util;
+package cn.spk.base.util;
 
 import com.alibaba.fastjson.JSONObject;
 import com.auth0.jwt.JWT;

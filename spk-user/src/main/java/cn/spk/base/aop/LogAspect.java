@@ -1,7 +1,7 @@
-package cn.spk.user.aop;
+package cn.spk.base.aop;
 
 
-import cn.spk.user.annotation.LogAnnotation;
+import cn.spk.base.annotation.LogAnnotation;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
 public class LogAspect {
 
     //Controller层切点
-    @Pointcut("@annotation(cn.spk.user.annotation.LogAnnotation)")
+    @Pointcut("@annotation(cn.spk.base.annotation.LogAnnotation)")
     public void controllerAspect() {
 
     }

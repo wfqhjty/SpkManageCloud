@@ -1,4 +1,4 @@
-package cn.spk.user.annotation;
+package cn.spk.base.annotation;
 
 import java.lang.annotation.*;
 

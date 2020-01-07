@@ -1,7 +1,10 @@
 package cn.spk.data.callable;
 
+import org.springframework.stereotype.Component;
+
 import java.util.concurrent.Callable;
 
+@Component
 public class SecondCallable implements Callable<Object> {
 
     @Override

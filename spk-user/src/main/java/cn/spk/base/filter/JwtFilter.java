@@ -1,7 +1,7 @@
-package cn.spk.user.filter;
+package cn.spk.base.filter;
 
 import cn.spk.user.service.IRedisService;
-import cn.spk.user.util.JwtUtil;
+import cn.spk.base.util.JwtUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
-package cn.spk.user.aop;
+package cn.spk.base.aop;
 
-import cn.spk.user.annotation.NotNull;
+import cn.spk.base.annotation.NotNull;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -20,7 +20,7 @@ import java.util.Map;
 @Aspect
 public class NotNullAspect {
     //Controller层切点
-    @Pointcut("@annotation(cn.spk.user.annotation.NotNull)")
+    @Pointcut("@annotation(cn.spk.base.annotation.NotNull)")
     public void controllerAspect() {
 
     }

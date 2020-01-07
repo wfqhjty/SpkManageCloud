@@ -1,4 +1,4 @@
-package cn.spk.data.filter;
+package cn.spk.base.filter;
 
 import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Value;

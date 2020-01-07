@@ -3,7 +3,7 @@ package cn.spk.user.controller;
 import cn.spk.user.entity.FrameUser;
 import cn.spk.user.service.IFrameUserService;
 import cn.spk.user.service.IRedisService;
-import cn.spk.user.util.JwtUtil;
+import cn.spk.base.util.JwtUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
