@@ -1,6 +1,7 @@
 package cn.spk.base.util;
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
@@ -18,15 +19,7 @@ public class SpringContestUtils implements ApplicationContextAware {
         this.applicationContext = applicationContext;
     }
 
-    public <T> List<T> getBeansByType(Class<T> requireType) {
-        List<T> result = new ArrayList<>();
-        String[] beanNmaes = applicationContext.getBeanNamesForType(requireType);
-        for (String beanName : beanNmaes) {
-            Object object = applicationContext.getBean(beanName);
-            result.add((T) object);
-        }
-        return result;
+    public ApplicationContext getApplicationContext() {
+        return applicationContext;
     }
-
-
 }

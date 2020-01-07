@@ -1,8 +1,9 @@
 package cn.spk.data.controller;
 
-import cn.spk.base.util.SpringContestUtils;
-import cn.spk.data.callable.CallAbleFactory;
+import cn.spk.data.serivce.IBeanService;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.servlet.filter.OrderedFilter;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +18,7 @@ import java.util.Map;
 public class BeanController {
 
     @Autowired
-    private SpringContestUtils springContestUtils;
+    private IBeanService beanService;
 
     @PostMapping("/getBeanByType")
     public <T> List<T> getBeansByType(@RequestBody Map map) {
@@ -27,10 +28,13 @@ public class BeanController {
             case "Filter":
                 clazz = Filter.class;
                 break;
+            case "OrderedFilter":
+                clazz = OrderedFilter.class;
+                break;
             default:
                 break;
         }
-        List list = springContestUtils.getBeansByType(clazz.getClass());
+        List list = beanService.getBeansByType(clazz);
         return list;
     }
 

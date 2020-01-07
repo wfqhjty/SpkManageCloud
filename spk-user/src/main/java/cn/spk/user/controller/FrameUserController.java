@@ -38,16 +38,10 @@ public class FrameUserController {
         return userService.selectByDeptid(deptid);
     }
 
-    @PostMapping("/addMap")
-    public void addMap(@RequestBody Map map) {
+    @PostMapping("/addUser")
+    public void addMap(@RequestBody FrameUser frameUser) {
         System.out.println(1111);
         System.out.println(1111);
         System.out.println(1111);
     }
-
-    @PostMapping("addBean")
-    public void addMap(@RequestBody FrameUser user) {
-        userService.insert(user);
-    }
-
 }
