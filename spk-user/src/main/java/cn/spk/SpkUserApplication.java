@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 @MapperScan("cn.spk.user.dao")
 @EnableEurekaClient
 @SpringBootApplication
-@ComponentScan(basePackages = {"cn.spk"})
 public class SpkUserApplication {
 
     public static void main(String[] args) {

@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableEurekaClient
-@ComponentScan(basePackages = {"cn.spk"})
 public class SpkDataApplication {
 
     public static void main(String[] args) {
