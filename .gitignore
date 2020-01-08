@@ -3,6 +3,5 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
 *.iml
 spk-data/src/main/resources/mybatis/mapper/
