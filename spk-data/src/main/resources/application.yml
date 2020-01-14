@@ -59,7 +59,17 @@ spring:
       jackson:
         time-zone: GMT+8
         date-format: yyyy-MM-dd HH:mm:ss sss
-
+      kafka:
+          consumer:
+            bootstrap-servers: 129.28.162.62:9092
+            group-id: group_id
+            auto-offset-reset: earliest
+            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+          producer:
+            bootstrap-servers: 129.28.162.62:9092
+            key-deserializer: org.apache.kafka.common.serialization.StringSerializer
+            value-deserializer: org.apache.kafka.common.serialization.StringSerializer
 #spring-boot整合mybatis
 mybatis:
   #实体类所做包
@@ -78,7 +88,3 @@ management:
   endpoint:
     health:
       show-details: always
-#  server:
-#      servlet:
-#        context-path: /act
-#      port: 8888
