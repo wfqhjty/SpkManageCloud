@@ -12,19 +12,9 @@ import java.util.List;
 @Service
 public class BeanServiceImpl implements IBeanService {
 
-    @Autowired
-    private SpringContestUtils springContestUtils;
-
-
     @Override
     public <T> List<T> getBeansByType(Class<T> requireType) {
-        ApplicationContext applicationContext = springContestUtils.getApplicationContext();
-        List<T> result = new ArrayList<>();
-        String[] beanNmaes = applicationContext.getBeanNamesForType(requireType);
-        for (String beanName : beanNmaes) {
-            Object object = applicationContext.getBean(beanName);
-            result.add((T) object);
-        }
+        List<T> result = SpringContestUtils.getBeanListByClass(requireType);
         return result;
     }
 }
