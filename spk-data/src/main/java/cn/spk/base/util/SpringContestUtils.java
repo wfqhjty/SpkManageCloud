@@ -59,7 +59,7 @@ public class SpringContestUtils implements ApplicationContextAware {
      */
     public static <T> List<T> getBeanListByClass(Class c) {
         assertContextInjected();
-        List<T> result = null;
+        List<T> result = new ArrayList<>();
         String[] beanNmaes = applicationContext.getBeanNamesForType(c);
         for (String beanName : beanNmaes) {
             Object object = applicationContext.getBean(beanName);

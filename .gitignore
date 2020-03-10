@@ -1,8 +1,32 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
+# Compiled class file
+*.class
+#XSL transformation
+*.out.xml
+# Log file
+*.log
+*.out
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+# virtual machine crash logs
+hs_err_pid*
+# Eclipse Project files
+*/.classpath
+.classpath
+*/.project
+.project
+*/.settings/
+.settings/
+.metadata/
+# IDEA files
+*/.idea/
+.idea/
 *.iml
-spk-data/src/main/resources/mybatis/mapper/
+# maven files
+*/target/*
+# MAC system files
+*/.DS_Store
+.DS_Store
+/bin/

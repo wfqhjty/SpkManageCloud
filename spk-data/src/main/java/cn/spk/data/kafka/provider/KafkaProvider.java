@@ -15,7 +15,7 @@ import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Component
+//@Component
 public class KafkaProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(KafkaProvider.class);
