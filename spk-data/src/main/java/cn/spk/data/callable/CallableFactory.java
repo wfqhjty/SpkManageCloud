@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.concurrent.Callable;
 
 @Component
-public class CallAbleFactory {
+public class CallableFactory {
 
     @Autowired
     private Map<String, Callable> callableMap;
