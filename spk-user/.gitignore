@@ -1,31 +1,32 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
+# Compiled class file
+*.class
+#XSL transformation
+*.out.xml
+# Log file
+*.log
+*.out
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+# virtual machine crash logs
+hs_err_pid*
+# Eclipse Project files
+*/.classpath
 .classpath
-.factorypath
+*/.project
 .project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+*/.settings/
+.settings/
+.metadata/
+# IDEA files
+*/.idea/
+.idea/*
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
+# maven files
+*/target/*
+# MAC system files
+*/.DS_Store
+.DS_Store
+/bin/

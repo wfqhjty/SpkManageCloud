@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/eureka/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/EurekaServerApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,21 +50,15 @@
     <favorites_list name="SpkManageCloud" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="1032" column="61" selection-start-line="1032" selection-start-column="61" selection-end-line="1032" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="139">
+              <caret line="85" column="83" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +93,7 @@
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>{</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -108,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ConfigApplication.java" />
         <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ClientUserConfigProperties.java" />
         <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/IFrameDeptService.java" />
         <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" />
@@ -159,6 +152,7 @@
         <option value="$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/eureka/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
       </list>
     </option>
   </component>
@@ -236,7 +230,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -258,42 +252,7 @@
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -333,6 +292,40 @@
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
               <item name="spk-user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -367,6 +360,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.spk.data.controller" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.spk.data.thread" />
       <recent name="cn.spk.data.entity" />
@@ -379,12 +378,6 @@
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources\static" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\entity" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-user\src\main\resources\static" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,7 +398,18 @@
     </option>
     <option name="contentProportion" value="0.3718048" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpkDataApplication">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.spk.data.test.Solution" />
+      <module name="spk-data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.spk.data.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -481,9 +485,11 @@
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.SpkUserApplication" />
       <item itemvalue="Spring Boot.SpkDataApplication" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Spring Boot.SpkDataApplication" />
         <item itemvalue="Spring Boot.SpkUserApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -532,6 +538,9 @@
       <workItem from="1567739897470" duration="1353000" />
       <workItem from="1567759394672" duration="3478000" />
       <workItem from="1567765675035" duration="9667000" />
+      <workItem from="1586595808956" duration="1218000" />
+      <workItem from="1587198902181" duration="6042000" />
+      <workItem from="1587270350083" duration="2782000" />
     </task>
     <task id="LOCAL-00001" summary="修改图标">
       <created>1566379358538</created>
@@ -744,7 +753,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171754000" />
+    <option name="totallyTimeSpent" value="181796000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -757,80 +766,49 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="18" weight="0.34876034" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5098336" side_tool="true" weight="0.4247934" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.5499244" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="8" weight="0.1452345" />
-      <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.4924357" weight="0.3107438" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4924357" weight="0.41322315" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49319214" weight="0.3289256" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49016643" visible="true" weight="0.4016529" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.28595042" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49848714" weight="0.38016528" />
-      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.4969743" weight="0.21487603" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.28264463" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5586777" visible="true" weight="0.2912254" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-      <window_info auto_hide="true" id="Web" order="7" sideWeight="0.34048256" side_tool="true" type="SLIDING" weight="0.32526475" />
-      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.4969743" weight="0.21487603" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="7" weight="0.1452345" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.104132235" />
-      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5586777" visible="true" weight="0.27760968" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49167928" visible="true" weight="0.23801653" />
-      <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="19" weight="0.34876034" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5075643" side_tool="true" weight="0.27603304" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.5499244" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.34876034" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="7" weight="0.1452345" />
+      <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="bottom" id="TypeScript" order="19" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4924357" weight="0.44132233" />
+      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.58512396" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.49924356" weight="0.18181819" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49319214" weight="0.3289256" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5075643" side_tool="true" weight="0.27603304" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.25289255" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49319214" weight="0.3289256" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.4709977" weight="0.34214875" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.25289255" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.28760332" />
+      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4969743" weight="0.21487603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.27438018" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5290023" visible="true" weight="0.2344932" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
       <window_info auto_hide="true" id="Web" order="7" sideWeight="0.34048256" side_tool="true" type="SLIDING" weight="0.32526475" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49848714" weight="0.4016529" />
-      <window_info id="Capture Tool" order="8" />
+      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.34876034" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.49924356" weight="0.18181819" />
+      <window_info anchor="bottom" id="TypeScript" order="21" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4924357" weight="0.41322315" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.4924357" weight="0.3107438" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="18" weight="0.34876034" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.29090908" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -877,7 +855,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -890,13 +868,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IRedisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -911,27 +882,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/JwtFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/JwtFilter.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java" />
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -939,27 +892,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskThree.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskTwo.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskOne.java" />
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/SecondCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -967,13 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java" />
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -981,13 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1044,27 +967,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -1095,21 +1000,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1911" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/spk-data/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-250">
@@ -1117,34 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1152,13 +1025,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
     <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
@@ -1187,13 +1054,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1201,20 +1062,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ClientUserConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ClientUserConfigProperties.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ConfigApplication.java" />
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1226,24 +1075,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="n#el-header#0;n#el-container#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#el-table#0;n#el-main#0;n#el-container#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="1032" column="61" selection-start-line="1032" selection-start-column="61" selection-end-line="1032" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="948" column="61" selection-start-line="948" selection-start-column="61" selection-end-line="948" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="85" column="83" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
