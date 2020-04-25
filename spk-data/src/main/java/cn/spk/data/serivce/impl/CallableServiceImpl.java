@@ -1,6 +1,6 @@
 package cn.spk.data.serivce.impl;
 
-import cn.spk.data.callable.CallAbleFactory;
+import cn.spk.data.callable.CallableFactory;
 import cn.spk.data.serivce.ICallableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,17 +19,17 @@ public class CallableServiceImpl implements ICallableService {
     }
 
     @Autowired
-    private CallAbleFactory callAbleFactory;
+    private CallableFactory callableFactory;
 
     @Override
     public List<String> getCallableList() throws ExecutionException, InterruptedException {
 
         List<Callable> callableList = new ArrayList<>();
-        Callable firstCallable = callAbleFactory.getCallable("firstCallable");
+        Callable firstCallable = callableFactory.getCallable("firstCallable");
         callableList.add(firstCallable);
-        Callable secondCallable = callAbleFactory.getCallable("secondCallable");
+        Callable secondCallable = callableFactory.getCallable("secondCallable");
         callableList.add(secondCallable);
-        Callable thirdCallable = callAbleFactory.getCallable("thirdCallable");
+        Callable thirdCallable = callableFactory.getCallable("thirdCallable");
         callableList.add(thirdCallable);
         List<Future> futureList = new ArrayList<>();
         List<String> lists = new ArrayList<>();
