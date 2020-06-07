@@ -8,6 +8,9 @@ import java.util.List;
 
 @Repository
 public interface FrameDeptMapper {
+
+    List<FrameDept> query();
+
     int deleteByPrimaryKey(Integer deptid);
 
     int insert(FrameDept record);
@@ -20,5 +23,5 @@ public interface FrameDeptMapper {
 
     int updateByPrimaryKey(FrameDept record);
 
-    List<FrameDept> listFrameDepts();
+
 }

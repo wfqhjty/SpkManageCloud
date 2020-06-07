@@ -10,7 +10,7 @@
     <sql id="Base_Column_List">
         deptid, deptname, deptshortname, parentid
     </sql>
-    <select id="listFrameDepts" resultMap="BaseResultMap">
+    <select id="query" resultMap="BaseResultMap">
         select *
         from framedept
     </select>

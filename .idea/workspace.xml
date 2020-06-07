@@ -2,13 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/RestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/CommonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/interceptor/RestTemplateHeadInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/dict/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ClientUserConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ClientUserConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/dict/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/filter/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/util/SpringContestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/BeanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/BeanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/bak.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/CommonConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/annotation/LogAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/annotation/LogAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/annotation/NotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/annotation/RequestValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/aop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/aop/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/aop/NotNullAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/aop/RequestValidateAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/token/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameDeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameDeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/bak.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/spk-user/target/" />
     <ignored path="$PROJECT_DIR$/spk-data/target/" />
+    <ignored path="$PROJECT_DIR$/spk-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +100,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CallableServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java">
+      <file leaf-file-name="JwtFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="175">
+              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServletResponse.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22.jar!/javax/servlet/http/HttpServletResponse.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/CommonConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +130,122 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallableController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/CallableController.java">
+      <file leaf-file-name="RestTemplateHeadInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/interceptor/RestTemplateHeadInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="125">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/RestConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestValidateAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/aop/RequestValidateAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrameDept.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultMsg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultMsgUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/CommonEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringContextUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/SpringContextUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebApplicationContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestValidate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/annotation/RequestValidate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -81,6 +259,7 @@
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -99,69 +278,76 @@
       <find>aroundController</find>
       <find>params</find>
       <find>EurekaServerApplication</find>
+      <find>no_filter_urls</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>{</replace>
+      <replace>callableFactory</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameDeptService.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameDeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameUser.java" />
-        <option value="$PROJECT_DIR$/spk-data/pom.xml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameDept.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameUser.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTask.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskCopy.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskOne.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskThree.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskTwo.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/SecondCallable.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spk-user/pom.xml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/ClientUserTest.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/eureka/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
         <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallAbleFactory.java" />
         <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/filter/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/config/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/config/CommonConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/util/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/util/SpringContestUtils.java" />
+        <option value="$PROJECT_DIR$/spk-common/pom.xml" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/dict/Dict.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/token/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Dict.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameDeptService.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameDeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/filter/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/dict/Constant.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/dict/Constant.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-user/pom.xml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Constant.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/token/JwtToken.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/spk-data/pom.xml" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/annotation/NotNullAspect.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/interceptor/RestTemplateHeadInterceptor.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/RestConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/annotation/NotNull.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/aop/NotNullAspect.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/aop/RequestValidateAspect.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/SpringContestUtils.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/Constant.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/CommonEnum.java" />
+        <option value="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java" />
       </list>
     </option>
   </component>
@@ -186,7 +372,26 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -205,15 +410,97 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="dict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +566,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spk" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="dict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -290,7 +589,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spk" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="callable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -302,6 +600,17 @@
               <item name="spk" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -334,6 +643,151 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="dict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spk" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="token" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -346,8 +800,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ToolWindowBean Validation.ShowToolbar" value="false" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -357,30 +813,32 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vole" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.spk.data.controller" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.spk.data.thread" />
-      <recent name="cn.spk.data.entity" />
-      <recent name="cn.spk.data.service.impl" />
-      <recent name="cn.spk" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\callable" />
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\filter" />
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources\static" />
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\entity" />
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-user\src\main\resources\static" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-common\src\main\resources\META-INF" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.spk.common.annotation" />
+      <recent name="cn.spk.base.filter" />
+      <recent name="cn.spk.base.dict" />
+      <recent name="cn.spk.base.util" />
+      <recent name="cn.spk.data.thread" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-common\src\main\java\cn\spk\filter" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\callable" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\filter" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources\static" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,9 +857,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.21223858" />
+    <option name="contentProportion" value="0.2563904" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -531,6 +989,16 @@
       <workItem from="1586595808956" duration="1218000" />
       <workItem from="1587198902181" duration="6042000" />
       <workItem from="1587270350083" duration="2782000" />
+      <workItem from="1589197756083" duration="982000" />
+      <workItem from="1589624368434" duration="4254000" />
+      <workItem from="1589683150628" duration="10529000" />
+      <workItem from="1589713216884" duration="5814000" />
+      <workItem from="1589727351654" duration="591000" />
+      <workItem from="1589802967346" duration="1101000" />
+      <workItem from="1590210548606" duration="2204000" />
+      <workItem from="1590291922833" duration="7051000" />
+      <workItem from="1590406178090" duration="688000" />
+      <workItem from="1590902328172" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="修改图标">
       <created>1566379358538</created>
@@ -743,7 +1211,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183279000" />
+    <option name="totallyTimeSpent" value="218281000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -757,78 +1225,47 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="19" weight="0.34876034" />
       <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5075643" side_tool="true" weight="0.27603304" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.5499244" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.505295" side_tool="true" weight="0.20495868" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.5499244" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="7" weight="0.1452345" />
+      <window_info anchor="right" id="Database" order="8" weight="0.1452345" />
       <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4924357" weight="0.44132233" />
       <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4924357" weight="0.45950413" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49319214" weight="0.3289256" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.4709977" visible="true" weight="0.41652894" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.25289255" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.28760332" />
-      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4969743" weight="0.21487603" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.34214875" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5290023" visible="true" weight="0.2685325" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-      <window_info auto_hide="true" id="Web" order="7" sideWeight="0.34048256" side_tool="true" type="SLIDING" weight="0.32526475" />
-      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4969743" weight="0.21487603" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="7" weight="0.1452345" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.27438018" />
-      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
-      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5290023" visible="true" weight="0.2344932" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.4709977" weight="0.34214875" />
-      <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
-      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.5499244" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.34876034" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="bottom" id="TypeScript" order="21" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.29090908" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.49924356" weight="0.18181819" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49319214" weight="0.3289256" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5075643" side_tool="true" weight="0.27603304" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.25289255" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.25454545" />
+      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4969743" weight="0.21487603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.494705" visible="true" weight="0.17190082" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5290023" visible="true" weight="0.2655068" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32980332" />
       <window_info auto_hide="true" id="Web" order="7" sideWeight="0.34048256" side_tool="true" type="SLIDING" weight="0.32526475" />
+      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.34876034" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24962178" />
+      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.49924356" weight="0.18181819" />
+      <window_info anchor="bottom" id="TypeScript" order="21" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4924357" weight="0.45950413" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.4842975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.28760332" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4924357" weight="0.44132233" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="19" weight="0.34876034" />
+      <window_info anchor="bottom" id="Message" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -888,260 +1325,312 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java">
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="193">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/util/JwtUtil.java" />
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/CommonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/filter/FilterConfig.java" />
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/FilterConfig.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/SpkUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+        <state relative-caret-position="175">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/ExecutorService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/task/TaskExecutionProperties.class">
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Dict.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/ExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/Executors.java">
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="417">
+          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="63" />
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/FilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="25">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/filter/JwtFilter.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
+        <state relative-caret-position="225">
+          <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spk-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state relative-caret-position="275">
+          <caret line="22" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/SpkDataApplication.java">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/dict/Constant.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/dict/Dict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/SpkUserApplication.java">
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/annotation/NotNull.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/aop/NotNullAspect.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/annotation/LogAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/spk-data/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/aop/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="128" column="28" lean-forward="true" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+        <state relative-caret-position="478">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="62" column="58" lean-forward="true" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        <state>
+          <caret column="53" lean-forward="true" selection-start-column="23" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/ClientUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ClientUserConfigProperties.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ConfigApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="948" column="61" selection-start-line="948" selection-start-column="61" selection-end-line="948" selection-end-column="61" />
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="62" column="66" lean-forward="true" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="125">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ClientUserConfigProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="132">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallableFactory.java">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="199">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/JwtFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="76" column="8" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/token/JwtToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/http/HttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/interceptor/RestTemplateHeadInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/RibbonController.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/RestConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="350">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/kafka/consumer/KafkaConsumer.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/config/CommonConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/kafka/provider/KafkaProvider.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/annotation/RequestValidate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/CallableController.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/aop/RequestValidateAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="325">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/SpringContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/CommonEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

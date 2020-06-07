@@ -13,7 +13,7 @@
     <sql id="Base_Column_List">
         userid, username, passwd, createdate, phone,deptid, deptname
     </sql>
-    <select id="listFrameUsers" resultMap="BaseResultMap">
+    <select id="query" resultMap="BaseResultMap">
         select *
         from frameuser
     </select>
@@ -33,12 +33,6 @@
         <include refid="Base_Column_List"/>
         from frameuser
         where username = #{username,jdbcType=VARCHAR}
-    </select>
-    <select id="selectByNamePasswd" resultMap="BaseResultMap">
-        select
-        <include refid="Base_Column_List"/>
-        from frameuser
-        where username = #{username,jdbcType=VARCHAR} and passwd = #{passwd,jdbcType=VARCHAR}
     </select>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
         delete from frameuser

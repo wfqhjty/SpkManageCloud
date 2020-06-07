@@ -1,8 +1,7 @@
-package cn.spk.base.util;
+package cn.spk.common.util;
 
 import org.apache.commons.lang3.Validate;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
@@ -12,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-public class SpringContestUtils implements ApplicationContextAware {
+public class SpringContextUtils implements ApplicationContextAware {
 
     private static ApplicationContext applicationContext = null;
 

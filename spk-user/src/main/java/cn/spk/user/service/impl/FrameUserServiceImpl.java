@@ -16,8 +16,13 @@ public class FrameUserServiceImpl implements IFrameUserService {
     private FrameUserMapper frameUserMapper;
 
     @Override
-    public FrameUser selectByNamePasswd(String username, String passwd) {
-        return frameUserMapper.selectByNamePasswd(username, passwd);
+    public List<FrameUser> query() {
+        return frameUserMapper.listFrameUsers();
+    }
+
+    @Override
+    public FrameUser selectByName(String username) {
+        return frameUserMapper.selectByUsername(username);
     }
 
     @Override
@@ -40,10 +45,6 @@ public class FrameUserServiceImpl implements IFrameUserService {
         frameUserMapper.deleteByPrimaryKey(uid);
     }
 
-    @Override
-    public List<FrameUser> listFrameUsers() {
-        return frameUserMapper.listFrameUsers();
-    }
 
     @Override
     public List<FrameUser> selectByDeptid(Integer deptid) {

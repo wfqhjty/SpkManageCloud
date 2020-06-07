@@ -1,16 +1,13 @@
-package cn.spk.base.aop;
+package cn.spk.common.aop;
 
-import cn.spk.base.annotation.NotNull;
+import cn.spk.common.annotation.RequestValidate;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.Map;
 
 /**
@@ -18,28 +15,23 @@ import java.util.Map;
  */
 @Component
 @Aspect
-public class NotNullAspect {
+public class RequestValidateAspect {
     //Controller层切点
-    @Pointcut("@annotation(cn.spk.base.annotation.NotNull)")
-    public void controllerAspect() {
+    @Pointcut("@annotation(requestValidate)")
+    public void controllerAspect(RequestValidate requestValidate) {
 
     }
 
-    @Around("controllerAspect()")
-    public Object doAround(ProceedingJoinPoint pjp) throws Throwable {
+    @Around("controllerAspect(requestValidate)")
+    public Object doAround(ProceedingJoinPoint pjp, RequestValidate requestValidate) throws Throwable {
         Object[] args = pjp.getArgs();//获取注解方法的入参
-        MethodInvocationProceedingJoinPoint methodInvocationProceedingJoinPoint = (MethodInvocationProceedingJoinPoint) pjp;
-        MethodSignature signature = ((MethodSignature) methodInvocationProceedingJoinPoint.getSignature());
-        //得到拦截的方法
-        Method method = signature.getMethod();
-        NotNull notNull = method.getAnnotation(NotNull.class);
-        String[] require = notNull.requires();
+        String[] require = requestValidate.requires();
         Object param = null;
         for (Object object : args) {
-            if (object.getClass() == notNull.param())
+            if (object.getClass() == requestValidate.param())
                 param = object;
         }
-        if(param==null)
+        if (param == null)
             System.out.println("annotation missing parameter");
         for (String str : require) {
             if (param instanceof Map) {

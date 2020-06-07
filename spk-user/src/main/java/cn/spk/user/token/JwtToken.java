@@ -1,13 +1,16 @@
-package cn.spk.base.util;
+package cn.spk.user.token;
 
-import com.alibaba.fastjson.JSONObject;
+import cn.spk.base.dict.Constant;
+import cn.spk.base.dict.Dict;
+import cn.spk.user.service.IRedisService;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTDecodeException;
-import com.auth0.jwt.interfaces.Claim;
 import com.auth0.jwt.interfaces.DecodedJWT;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.HashMap;
@@ -19,16 +22,15 @@ import java.util.Map;
  * @author qiaokun
  * @date 2018/08/10
  */
-public class JwtUtil {
-    /**
-     * 过期时间一天，
-     * TODO 正式运行时修改为15分钟
-     */
-    private static final long EXPIRE_TIME = 24 * 60 * 60 * 1000;
-    /**
-     * token私钥
-     */
-    private static final String TOKEN_SECRET = "f26e587c28064d0e855e72c0a6a0e618";
+@Component
+public class JwtToken {
+
+    public static final long EXPIRE_TIME = 24 * 60 * 60 * 1000;
+
+    public static final String TOKEN_SECRET = "f26e587c28064d0e855e72c0a6a0e618";
+
+    @Resource
+    private IRedisService redisService;
 
     /**
      * 校验token是否正确
@@ -48,32 +50,45 @@ public class JwtUtil {
         }
     }
 
-    /**
-     * 获得token中的信息无需secret解密也能获得
-     *
-     * @return token中包含的用户名
-     */
-    public static String getUsername(String token) {
-        try {
-            DecodedJWT jwt = JWT.decode(token);
-            //Claim claim=jwt.getClaim("username");
-            Claim claim = jwt.getClaim("username");
-            return claim.asString().trim();
-        } catch (JWTDecodeException e) {
-            return null;
-        }
-    }
 
     /**
-     * 获取登陆用户ID
+     * 验证当前token是否有效
      *
      * @param token
      * @return
      */
-    public static String getUid(String token) {
+    public boolean checkToken(String token) {
+        try {
+            if (token == null || "".equals(token.trim()))
+                return false;
+            String username = this.getUserName(token);
+            if (username == null)
+                return false;
+            String oldToken = redisService.get(Dict.USER_TOKEN + username);
+            if (oldToken != null && !oldToken.equals(token)) {
+                return true;
+            }
+            return false;
+        } catch (Exception e) {
+            return false;
+        }
+
+    }
+
+
+    /**
+     * 获取登陆用户名
+     *
+     * @param token
+     * @return
+     */
+    public String getUserName(String token) {
         try {
             DecodedJWT jwt = JWT.decode(token);
-            return jwt.getClaim("uid").asString();
+            String username = jwt.getClaim(Dict.USERNAME).asString();
+            if (null == username || "".equals(username.trim()))
+                return null;
+            return username;
         } catch (JWTDecodeException e) {
             return null;
         }
@@ -82,10 +97,10 @@ public class JwtUtil {
     /**
      * 生成签名,15min后过期
      *
-     * @param username 用户名
+     * @param userName 用户名
      * @return 加密的token
      */
-    public static String sign(String username, String uid) {
+    public String sign(String userName) {
         try {
             //过期时间
             Date date = new Date(System.currentTimeMillis() + EXPIRE_TIME);
@@ -98,8 +113,7 @@ public class JwtUtil {
             // 附带username，userId信息，生成签名
             return JWT.create()
                     .withHeader(header)
-                    .withClaim("username", username)
-                    .withClaim("uid", uid)
+                    .withClaim(Dict.USERNAME, userName)
                     .withExpiresAt(date)
                     .sign(algorithm);
         } catch (UnsupportedEncodingException e) {
@@ -107,17 +121,4 @@ public class JwtUtil {
         }
     }
 
-    public static String parseJwt(String token) {
-        try {
-            DecodedJWT jwt = JWT.decode(token);
-            String username = jwt.getClaim("username").asString();
-            String uid = jwt.getClaim("uid").asString();
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.put("usernmae", username);
-            jsonObject.put("uid", uid);
-            return jsonObject.toJSONString();
-        } catch (JWTDecodeException e) {
-            return null;
-        }
-    }
 }

@@ -1,9 +1,8 @@
-package cn.spk;
+package cn.spk.common.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -11,19 +10,15 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.http.MediaType;
-import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.client.RestTemplate;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
-public class AppConfiguration {
+public class CommonConfiguration {
+
     /**
      * redisTemplate 序列化使用的jdkSerializeable, 存储二进制字节码, 所以自定义序列化类
      *
@@ -65,4 +60,5 @@ public class AppConfiguration {
         mappingJackson2HttpMessageConverter.setSupportedMediaTypes(list);
         return mappingJackson2HttpMessageConverter;
     }
+
 }

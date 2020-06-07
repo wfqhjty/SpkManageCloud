@@ -11,13 +11,14 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-@RequestMapping("/dept")
+@RequestMapping("/api/dept")
 public class FrameDeptController {
+
     @Resource
     IFrameDeptService frameDeptService;
 
-    @PostMapping("/queryAll")
-    public List<FrameDept> getFrameDepts() {
-        return frameDeptService.listFrameDepts();
+    @PostMapping("/query")
+    public List<FrameDept> query() {
+        return frameDeptService.query();
     }
 }

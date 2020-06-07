@@ -17,15 +17,13 @@ public interface FrameUserMapper {
 
     FrameUser selectByUsername(String username);
 
-    FrameUser selectByNamePasswd(@Param("username") String username, @Param("passwd") String passwd);
-
     int updateByPrimaryKeySelective(FrameUser record);
 
     int updateByPrimaryKey(FrameUser record);
 
     int deleteByPrimaryKey(Integer userid);
 
-    List<FrameUser> listFrameUsers();
+    List<FrameUser> query();
 
     List<FrameUser> selectByDeptid(Integer deptid);
 }

@@ -15,7 +15,7 @@ public class FrameDeptServiceImpl implements IFrameDeptService {
     private FrameDeptMapper frameDeptMapper;
 
     @Override
-    public List<FrameDept> listFrameDepts() {
-        return frameDeptMapper.listFrameDepts();
+    public List<FrameDept> query() {
+        return frameDeptMapper.query();
     }
 }

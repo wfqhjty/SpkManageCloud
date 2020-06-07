@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/user")
 public class FrameUserController {
 
     private static final Logger logger = LoggerFactory.getLogger(FrameUserController.class);
@@ -20,9 +20,9 @@ public class FrameUserController {
     @Resource
     private IFrameUserService userService;
 
-    @PostMapping("/queryAll")
+    @PostMapping("/query")
     public List<FrameUser> queryAll() {
-        return userService.listFrameUsers();
+        return userService.query();
     }
 
     @LogAnnotation()

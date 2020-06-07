@@ -6,7 +6,10 @@ import cn.spk.user.entity.FrameUser;
 import java.util.List;
 
 public interface IFrameUserService {
-    FrameUser selectByNamePasswd(String username, String passwd);
+
+    List<FrameUser> query();
+
+    FrameUser selectByName(String username);
 
     FrameUser selectByPrimaryKey(Integer uid);
 
@@ -16,7 +19,7 @@ public interface IFrameUserService {
 
     void deleteByPrimaryKey(Integer uid);
 
-    List<FrameUser> listFrameUsers();
+
 
     List<FrameUser> selectByDeptid(Integer deptid);
 }
