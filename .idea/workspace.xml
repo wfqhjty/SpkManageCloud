@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="SpkManageCloud" />
+      <module name="eureka-server" />
+      <module name="spk-user" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/spk-user/target/" />
+    <ignored path="$PROJECT_DIR$/spk-data/target/" />
+    <ignored path="$PROJECT_DIR$/spk-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="novice@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="novice@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="novice@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="novice: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpkManageCloud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spk-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowGroupBy>Package</toolWindowGroupBy>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>workbook</find>
+      <find>UriCompomentsBuilder</find>
+      <find>getF</find>
+      <find>goDetail</find>
+      <find>Detail</find>
+      <find>updateRenewsPerMinThreshold</find>
+      <find>aroundController</find>
+      <find>params</find>
+      <find>EurekaServerApplication</find>
+      <find>common</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>{</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameDeptService.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameDeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameUser.java" />
+        <option value="$PROJECT_DIR$/spk-data/pom.xml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameDept.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameUser.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTask.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskCopy.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskOne.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskThree.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskTwo.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/SecondCallable.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spk-user/pom.xml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/ClientUserTest.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/eureka/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallAbleFactory.java" />
+        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\Java\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-data" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-data" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spk-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vole" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.spk.data.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.spk.data.thread" />
+      <recent name="cn.spk.data.entity" />
+      <recent name="cn.spk.data.service.impl" />
+      <recent name="cn.spk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\callable" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\filter" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources\static" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\entity" />
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-user\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.21223858" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.spk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.spk.EurekaServerApplication" />
+    </configuration>
+    <configuration name="SpkDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spk-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.spk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.spk.SpkDataApplication" />
+    </configuration>
+    <configuration name="SpkUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spk-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.spk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.spk.SpkUserApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.SpkUserApplication" />
+      <item itemvalue="Spring Boot.SpkDataApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpkUserApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.SpkDataApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="autoCreateRunConfiguration" value="false" />
+    <option name="reformatAfterCreation" value="false" />
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="" />
+      <created>1566009036294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566009036294</updated>
+      <workItem from="1566009045606" duration="20903000" />
+      <workItem from="1566095683703" duration="462000" />
+      <workItem from="1566185121092" duration="20355000" />
+      <workItem from="1566263260247" duration="3067000" />
+      <workItem from="1566349686976" duration="15624000" />
+      <workItem from="1566435630204" duration="8380000" />
+      <workItem from="1566522966630" duration="3834000" />
+      <workItem from="1566782253072" duration="9747000" />
+      <workItem from="1566871185981" duration="3110000" />
+      <workItem from="1566971046656" duration="6296000" />
+      <workItem from="1567040779248" duration="2286000" />
+      <workItem from="1567047362668" duration="4097000" />
+      <workItem from="1567127248735" duration="2499000" />
+      <workItem from="1567230655867" duration="1052000" />
+      <workItem from="1567310818282" duration="25038000" />
+      <workItem from="1567393886131" duration="7190000" />
+      <workItem from="1567475890554" duration="7722000" />
+      <workItem from="1567558935348" duration="4271000" />
+      <workItem from="1567667779548" duration="10636000" />
+      <workItem from="1567739897470" duration="1353000" />
+      <workItem from="1567759394672" duration="3478000" />
+      <workItem from="1567765675035" duration="9667000" />
+      <workItem from="1586595808956" duration="1218000" />
+      <workItem from="1587198902181" duration="6042000" />
+      <workItem from="1587270350083" duration="2782000" />
+      <workItem from="1591717237208" duration="47000" />
+      <workItem from="1591793304757" duration="3773000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改图标">
+      <created>1566379358538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566379358539</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改首页">
+      <created>1566379804532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566379804532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改配置文件">
+      <created>1566807360632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566807360633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加跳过过滤条件">
+      <created>1566807463903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566807463903</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改心跳时间">
+      <created>1566807524463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566807524463</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改心跳时间">
+      <created>1566807559077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566807559077</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改导出Excel">
+      <created>1566808347497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566808347497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改导出Excel">
+      <created>1566808414255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566808414255</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1566808827049</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566808827049</updated>
+    </task>
+    <task id="LOCAL-00010" summary="util">
+      <created>1566976581814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566976581814</updated>
+    </task>
+    <task id="LOCAL-00011" summary="新增cors依赖">
+      <created>1566976900078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566976900078</updated>
+    </task>
+    <task id="LOCAL-00012" summary="新增cors配置">
+      <created>1566976936775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566976936775</updated>
+    </task>
+    <task id="LOCAL-00013" summary="新增cors跨域">
+      <created>1566977634839</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566977634839</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Junit测试">
+      <created>1567328920106</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567328920106</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修改依赖">
+      <created>1567328953405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567328953405</updated>
+    </task>
+    <task id="LOCAL-00016" summary="新增配置">
+      <created>1567329013116</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329013116</updated>
+    </task>
+    <task id="LOCAL-00017" summary="新增人员信息">
+      <created>1567329091208</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329091208</updated>
+    </task>
+    <task id="LOCAL-00018" summary="新增用户">
+      <created>1567329135126</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329135126</updated>
+    </task>
+    <task id="LOCAL-00019" summary="人员和部门">
+      <created>1567329178813</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329178813</updated>
+    </task>
+    <task id="LOCAL-00020" summary="修改RestTemplate配置">
+      <created>1567329206053</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329206053</updated>
+    </task>
+    <task id="LOCAL-00021" summary="人员和部门">
+      <created>1567329247064</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329247064</updated>
+    </task>
+    <task id="LOCAL-00022" summary="修改主页">
+      <created>1567329539892</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567329539892</updated>
+    </task>
+    <task id="LOCAL-00023" summary="修改时间配置">
+      <created>1567768144738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1567768144738</updated>
+    </task>
+    <task id="LOCAL-00024" summary="修改接口类型为Post">
+      <created>1567771621626</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1567771621626</updated>
+    </task>
+    <task id="LOCAL-00025" summary="配置文件">
+      <created>1568026080985</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568026080985</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 00m 09s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 01m 03s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 14m 53s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 17m 59s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 25m 22s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 28m 55s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 31m 59s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getDepts - 2019.09.01 at 16h 32m 37s.xml">
+      <configuration name="ClientUserTest.getDepts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 33m 35s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 19h 18m 14s.xml">
+      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="187099000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="19" weight="0.34876034" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5075643" side_tool="true" weight="0.27603304" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.5499244" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="7" weight="0.1452345" />
+      <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4924357" weight="0.44132233" />
+      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4924357" weight="0.45950413" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49319214" weight="0.3289256" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.4709977" visible="true" weight="0.29752067" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.25289255" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.28760332" />
+      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4969743" weight="0.21487603" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.246281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5290023" visible="true" weight="0.24205749" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info auto_hide="true" id="Web" order="7" sideWeight="0.34048256" side_tool="true" type="SLIDING" weight="0.32526475" />
+      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.34876034" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.49924356" weight="0.18181819" />
+      <window_info anchor="bottom" id="TypeScript" order="21" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.29090908" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="2" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改图标" />
+    <MESSAGE value="修改首页" />
+    <MESSAGE value="修改配置文件" />
+    <MESSAGE value="增加跳过过滤条件" />
+    <MESSAGE value="修改心跳时间" />
+    <MESSAGE value="修改导出Excel" />
+    <MESSAGE value="init" />
+    <MESSAGE value="util" />
+    <MESSAGE value="新增cors依赖" />
+    <MESSAGE value="新增cors配置" />
+    <MESSAGE value="新增cors跨域" />
+    <MESSAGE value="Junit测试" />
+    <MESSAGE value="修改依赖" />
+    <MESSAGE value="新增配置" />
+    <MESSAGE value="新增人员信息" />
+    <MESSAGE value="新增用户" />
+    <MESSAGE value="修改RestTemplate配置" />
+    <MESSAGE value="人员和部门" />
+    <MESSAGE value="页面增加Vue" />
+    <MESSAGE value="修改时间配置" />
+    <MESSAGE value="修改接口类型为Post" />
+    <MESSAGE value="修改主页" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>matcher.matches()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/ExecutorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/task/TaskExecutionProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/SpkDataApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="62" column="58" lean-forward="true" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/ClientUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ClientUserConfigProperties.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ConfigApplication.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="948" column="61" selection-start-line="948" selection-start-column="61" selection-end-line="948" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ClientUserConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallableFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/RibbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/kafka/consumer/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/kafka/provider/KafkaProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/CallableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/SpkUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spk-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spk-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.boot:spring-boot-configuration-processor:2.1.7.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
