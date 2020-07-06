@@ -5,6 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 import java.util.Date;
 
 public class FrameUser {
+
     private Integer userid;
 
     private String username;

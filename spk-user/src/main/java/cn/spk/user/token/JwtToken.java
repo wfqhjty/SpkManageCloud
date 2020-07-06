@@ -1,6 +1,5 @@
 package cn.spk.user.token;
 
-import cn.spk.base.dict.Constant;
 import cn.spk.base.dict.Dict;
 import cn.spk.user.service.IRedisService;
 import com.auth0.jwt.JWT;

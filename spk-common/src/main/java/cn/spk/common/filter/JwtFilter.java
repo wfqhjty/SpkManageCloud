@@ -51,18 +51,23 @@ public class JwtFilter implements Filter {
         String source = request.getHeader(Constant.SOURCE);
         //是否需要过滤
         boolean noNeedFilter = isNoNeedFilter(url);
-        filterChain.doFilter(servletRequest, servletResponse);
-        if (!noNeedFilter && !Constant.SOURCE.equals(source)) {
-            if (!this.checkToken(token, request)) {
-                logger.error("当前用户未登录");
-                response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "当前用户未登录");
-                return;
-            } else filterChain.doFilter(request, response);
+        if (!noNeedFilter) {
+            filterChain.doFilter(request, response);
+        } else if (!CommonUtil.isNullOrEmpty(source) && Constant.SOURCE.equals(source)){
+            filterChain.doFilter(request, response);
+        }
+
+        if(!this.checkToken(token, request)){
+            logger.error("当前用户未登录");
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "当前用户未登录");
+            return;
         }
         filterChain.doFilter(request, response);
     }
 
     /**
+     * 不需要登录验证的地址
+     *
      * @param url
      * @return
      */

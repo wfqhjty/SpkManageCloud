@@ -23,8 +23,11 @@ public class DeptController {
     @Resource
     private RestTemplate restTemplate;
 
-    @Autowired
-    private ClientUserConfigProperties clientUserConfigProperties;
+    private final ClientUserConfigProperties clientUserConfigProperties;
+
+    public DeptController(ClientUserConfigProperties clientUserConfigProperties) {
+        this.clientUserConfigProperties = clientUserConfigProperties;
+    }
 
     @PostMapping("/getDepts")
     public List<FrameDept> getDepts() {

@@ -17,7 +17,7 @@ public class FrameUserServiceImpl implements IFrameUserService {
 
     @Override
     public List<FrameUser> query() {
-        return frameUserMapper.listFrameUsers();
+        return frameUserMapper.query();
     }
 
     @Override

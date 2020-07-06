@@ -1,6 +1,5 @@
 package cn.spk.data.controller;
 
-import cn.spk.base.util.SpringContestUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 

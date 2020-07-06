@@ -1,8 +1,7 @@
 package cn.spk.common.util;
 
 import cn.spk.common.ResultMsg;
-import cn.spk.common.dict.CommonEnum;
-import cn.spk.common.dict.Constant;
+import cn.spk.common.dict.HttpCodeEnum;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -12,8 +11,8 @@ public class ResultMsgUtil {
 
     public ResultMsg buildSuccess(Object data) {
         ResultMsg resultMsg = new ResultMsg();
-        resultMsg.setCode(HttpServletResponse.SC_OK);
-        resultMsg.setMsg(CommonEnum.ReturnMsgEnum.SUCCESS.getValue());
+        resultMsg.setCode(HttpCodeEnum.OK.getCode());
+        resultMsg.setMsg(HttpCodeEnum.OK.getMsg());
         resultMsg.setData(data);
         return resultMsg;
     }

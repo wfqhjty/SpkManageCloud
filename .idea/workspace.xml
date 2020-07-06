@@ -7,74 +7,56 @@
       <module name="spk-user" />
     </loaded-modules>
   </component>
-  <component name="ChangeListManager">
-    <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/pom.xml" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
-    <ignored path="$PROJECT_DIR$/spk-user/target/" />
-    <ignored path="$PROJECT_DIR$/spk-data/target/" />
-    <ignored path="$PROJECT_DIR$/spk-common/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
+  <component name="BranchesTreeState">
     <expand>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="novice@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="novice@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="novice@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="novice: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SpkManageCloud" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spk-user/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/HttpCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/bean/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-data/src/main/resources/application-deploy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application-deploy.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/CommonEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/src/test/java/cn/spk/SpkCommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-common/src/test/java/cn/spk/common/SpkCommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/BeanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/BeanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/BeanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/BeanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/token/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/token/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,30 +65,13 @@
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowGroupBy>Package</toolWindowGroupBy>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>workbook</find>
-      <find>UriCompomentsBuilder</find>
-      <find>getF</find>
-      <find>goDetail</find>
-      <find>Detail</find>
-      <find>updateRenewsPerMinThreshold</find>
-      <find>aroundController</find>
-      <find>params</find>
-      <find>EurekaServerApplication</find>
-      <find>common</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>{</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,177 +81,26 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameDeptMapper.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameDeptService.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameDeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameUser.java" />
-        <option value="$PROJECT_DIR$/spk-data/pom.xml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameDept.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameDeptMapper.xml" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/entity/FrameDept.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/entity/FrameUser.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/mybatis/mapper/FrameUserMapper.xml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/dao/FrameUserMapper.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/IFrameUserService.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/service/impl/FrameUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/filter/FilterConfig.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/util/JwtUtil.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTask.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskCopy.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskOne.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskThree.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/ThreadTaskTwo.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/SecondCallable.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ThrodCallable.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spk-user/pom.xml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/ClientUserTest.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/eureka/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallAbleFactory.java" />
-        <option value="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../Java/.m2/repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="E:\Java\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Java/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spk-data" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spk-data" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spk-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spk-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1dXbQuT85rmFHVINMur2j5AMifQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpkManageCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpkManageCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spk-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -294,6 +108,8 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -302,7 +118,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vole" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -310,9 +126,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.spk.data.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.spk.data.thread" />
@@ -327,12 +152,6 @@
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\entity" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-user\src\main\resources\static" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -340,37 +159,34 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-    <option name="contentProportion" value="0.21223858" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.spk.data.bean.Test" />
+      <module name="spk-data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.spk.data.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server" />
@@ -381,6 +197,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.spk.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpkDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spk-data" />
@@ -391,6 +210,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.spk.SpkDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpkUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spk-user" />
@@ -401,36 +223,28 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.spk.SpkUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.SpkUserApplication" />
       <item itemvalue="Spring Boot.SpkDataApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.SpkUserApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.SpkDataApplication" />
@@ -484,6 +298,8 @@
       <workItem from="1587270350083" duration="2782000" />
       <workItem from="1591717237208" duration="47000" />
       <workItem from="1591793304757" duration="3773000" />
+      <workItem from="1592574379563" duration="5512000" />
+      <workItem from="1594043145215" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="修改图标">
       <created>1566379358538</created>
@@ -663,41 +479,6 @@
     <option name="localTasksCounter" value="26" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 00m 09s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 01m 03s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 14m 53s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 17m 59s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 25m 22s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 28m 55s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 31m 59s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getDepts - 2019.09.01 at 16h 32m 37s.xml">
-      <configuration name="ClientUserTest.getDepts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 16h 33m 35s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientUserTest_getUsers - 2019.09.01 at 19h 18m 14s.xml">
-      <configuration name="ClientUserTest.getUsers" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187099000" />
-  </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -707,54 +488,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="19" weight="0.34876034" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50075644" side_tool="true" weight="0.21652892" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5075643" side_tool="true" weight="0.27603304" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.5499244" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="7" weight="0.1452345" />
-      <window_info auto_hide="true" x="501" y="61" width="364" height="605" id="Structure" order="1" sideWeight="0.44132233" side_tool="true" type="WINDOWED" weight="0.2753404" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4924357" weight="0.44132233" />
-      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4924357" weight="0.45950413" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49319214" weight="0.3289256" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.4709977" visible="true" weight="0.29752067" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.25289255" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.28760332" />
-      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4969743" weight="0.21487603" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.246281" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5290023" visible="true" weight="0.24205749" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-      <window_info auto_hide="true" id="Web" order="7" sideWeight="0.34048256" side_tool="true" type="SLIDING" weight="0.32526475" />
-      <window_info id="JRebel" order="3" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="6" sideWeight="0.50735295" side_tool="true" weight="0.32526475" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.34876034" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.49924356" weight="0.18181819" />
-      <window_info anchor="bottom" id="TypeScript" order="21" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.29090908" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="2" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -766,8 +501,17 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改图标" />
@@ -795,6 +539,99 @@
     <MESSAGE value="配置文件" />
     <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1592983356211">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592983356211" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592983858533">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1592983858533" />
+    <state width="477" height="466" key="DebuggerActiveHint" timestamp="1592319242483">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="477" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1592319242483" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1593268434180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593268434180" />
+    <state width="958" height="208" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1591887025510" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1593268434179">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593268434179" />
+    <state width="958" height="208" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1591887025509" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1593268434177">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593268434177" />
+    <state width="958" height="208" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1591887025508" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1593268434179">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593268434179" />
+    <state width="958" height="208" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1591887025510" />
+    <state width="1006" height="300" key="GridCell.Tab.1.bottom" timestamp="1592490346367">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592490346367" />
+    <state width="1006" height="347" key="GridCell.Tab.1.bottom/0.23.1440.809@0.23.1440.809" timestamp="1592319118202" />
+    <state width="1006" height="300" key="GridCell.Tab.1.center" timestamp="1592490346366">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592490346366" />
+    <state width="1006" height="347" key="GridCell.Tab.1.center/0.23.1440.809@0.23.1440.809" timestamp="1592319118200" />
+    <state width="1006" height="300" key="GridCell.Tab.1.left" timestamp="1592490346366">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592490346366" />
+    <state width="1006" height="347" key="GridCell.Tab.1.left/0.23.1440.809@0.23.1440.809" timestamp="1592319118199" />
+    <state width="1006" height="300" key="GridCell.Tab.1.right" timestamp="1592490346367">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592490346367" />
+    <state width="1006" height="347" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1592319118201" />
+    <state width="1006" height="300" key="GridCell.Tab.2.bottom" timestamp="1592490346368">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592490346368" />
+    <state width="1006" height="300" key="GridCell.Tab.2.center" timestamp="1592490346368">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1592490346368" />
+    <state width="1006" height="300" key="GridCell.Tab.2.left" timestamp="1592490346367">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1592490346367" />
+    <state width="1006" height="300" key="GridCell.Tab.2.right" timestamp="1592490346368">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1006" height="300" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1592490346368" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1594043649448">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1594043649448" />
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1592318916849">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1592318916849" />
+    <state x="385" y="156" key="search.everywhere.popup" timestamp="1591888054507">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="385" y="156" key="search.everywhere.popup/0.23.1440.809@0.23.1440.809" timestamp="1591888054507" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/AuthController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -803,361 +640,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/FirstCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/ExecutorTest.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/AppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/ExecutorService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/task/TaskExecutionProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/FixedThreadPoolCase.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/CachedThreadPoolCase.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/thread/SingleThreadCase.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/SpkDataApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/annotation/NotNull.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/LogAspect.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/aop/NotNullAspect.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/AppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="62" column="58" lean-forward="true" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/filter/JwtFilter.java" />
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/FrameDeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/ClientUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/util/Util.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ClientUserConfigProperties.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/conf/ConfigApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="948" column="61" selection-start-line="948" selection-start-column="61" selection-end-line="948" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/autoconfig.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/base/conf/ClientUserConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallableFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/RibbonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/kafka/consumer/KafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/kafka/provider/KafkaProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/controller/CallableController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/serivce/impl/CallableServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/src/main/java/cn/spk/SpkUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/cn/spk/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-data/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spk-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>spk-common</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.springframework.boot:spring-boot-configuration-processor:2.1.7.RELEASE</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
