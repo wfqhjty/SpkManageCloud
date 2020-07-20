@@ -20,7 +20,7 @@ $(function () {
         });
         if (flag) {
             $.ajax({
-                url: url + "/loginController/userRegister",
+                url: url + "/api/auth/register",
                 type: 'POST',
                 dataType: 'json',
                 contentType: 'application/json;charset=utf-8',

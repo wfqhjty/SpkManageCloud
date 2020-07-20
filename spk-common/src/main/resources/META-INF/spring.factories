@@ -1,5 +1,5 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-cn.spk.common.filter.FilterConfig,\
+cn.spk.base.filter.FilterConfig,\
 cn.spk.common.util.SpringContextUtils,\
 cn.spk.common.aop.RequestValidateAspect,\
 cn.spk.common.config.CommonConfiguration

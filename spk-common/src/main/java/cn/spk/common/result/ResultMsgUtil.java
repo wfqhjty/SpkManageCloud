@@ -1,18 +1,19 @@
-package cn.spk.common.util;
-
-import cn.spk.common.ResultMsg;
-import cn.spk.common.dict.HttpCodeEnum;
-
-import javax.servlet.http.HttpServletResponse;
+package cn.spk.common.result;
 
 public class ResultMsgUtil {
-
-    private String applicationName = SpringContextUtils.getApplicationContext().getApplicationName();
 
     public ResultMsg buildSuccess(Object data) {
         ResultMsg resultMsg = new ResultMsg();
         resultMsg.setCode(HttpCodeEnum.OK.getCode());
         resultMsg.setMsg(HttpCodeEnum.OK.getMsg());
+        resultMsg.setData(data);
+        return resultMsg;
+    }
+
+    public ResultMsg buildFail(Object data){
+        ResultMsg resultMsg = new ResultMsg();
+        resultMsg.setCode(HttpCodeEnum.FAIL.getCode());
+        resultMsg.setMsg(HttpCodeEnum.FAIL.getMsg());
         resultMsg.setData(data);
         return resultMsg;
     }

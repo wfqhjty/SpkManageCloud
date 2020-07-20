@@ -20,7 +20,7 @@ $(function () {
         });
         if(flag){
             $.ajax({
-                url: url + "/loginController/userLogin",
+                url: url + "/api/auth/login",
                 type: 'POST',
                 dataType: 'json',
                 contentType: 'application/json;charset=utf-8',
@@ -28,7 +28,7 @@ $(function () {
                 timeout: 10000,
                 success: function (data) {
                     if (data.token) {
-                        window.localStorage.setItem("novicetoken", data.token);
+                        window.localStorage.setItem("usertoken", data.token);
                         window.location.href = "index";
                     }
 

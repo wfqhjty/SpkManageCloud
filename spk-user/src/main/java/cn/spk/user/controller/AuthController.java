@@ -63,18 +63,16 @@ public class AuthController {
     public Map Login(@RequestBody Map hashMap) {
         Map result = new HashMap();
         String username = (String) hashMap.get(Dict.USERNAME);
-        String passwd = (String) hashMap.get(Dict.PASSWD);
+        String password = (String) hashMap.get(Dict.PASSWORD);
         FrameUser frameUser = userService.selectByName(username);
-        List<FrameUser> userList = userService.query();
         if (frameUser == null) {
             System.out.println("当前用户不存在");
-        } else if (!frameUser.getPasswd().equals(passwd)) {
+        } else if (!frameUser.getPasswd().equals(password)) {
             System.out.println("当前用户密码不正确");
         }
         //返回token
         String user_token = jwtToken.sign(username);
         redisService.setExpire(Dict.USER_TOKEN + username, user_token);
-
         result.put(Dict.TOKEN, user_token);
         return result;
     }
@@ -88,14 +86,14 @@ public class AuthController {
     @PostMapping("/register")
     public Map register(@RequestBody Map hashMap) {
         String username = (String) hashMap.get(Dict.USERNAME);
-        String passwd = (String) hashMap.get(Dict.PASSWD);
+        String password = (String) hashMap.get(Dict.PASSWORD);
         FrameUser frameUser = userService.selectByUsername(username);
         if (frameUser != null) {
             System.out.println("当前用户已存在");
         } else {
             frameUser = new FrameUser();
             frameUser.setUsername(username);
-            frameUser.setPasswd(passwd);
+            frameUser.setPasswd(password);
             frameUser.setCreatedate(new Date());
             userService.insert(frameUser);
         }

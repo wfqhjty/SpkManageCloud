@@ -1,4 +1,4 @@
-package cn.spk.common;
+package cn.spk.common.result;
 
 public class ResultMsg {
     private Integer code;
