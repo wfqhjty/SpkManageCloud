@@ -27,25 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a42a541-ab41-4b26-8414-9f188f23c4a9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/spk-user/src/main/resources/bak/novice.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/ResultMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/result/ResultMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/dict/HttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/result/HttpCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/filter/FilterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/base/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/util/ResultMsgUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/java/cn/spk/common/result/ResultMsgUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/spk-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallableFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/callable/CallableFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Dict.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/dict/Dict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/base/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/java/cn/spk/user/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/static/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/static/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spk-user/src/main/resources/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/main/resources/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/main/java/cn/spk/data/bean/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-data/src/test/java/cn/spk/data/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spk-user/src/test/java/cn/spk/SpkUserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spk-user/src/test/java/cn/spk/SpkUserApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +99,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-server/src/main/java/cn/spk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spk-user/src/main/resources/bak" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ReactorSettings">
@@ -129,6 +116,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.spk.data.controller" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.spk.base.filter" />
       <recent name="cn.spk.data.thread" />
@@ -137,17 +130,11 @@
       <recent name="cn.spk" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spk-user/src/main/resources/bak" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\callable" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\filter" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources\static" />
       <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\java\cn\spk\data\entity" />
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-user\src\main\resources\static" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\JetBrains\project\SpkManageCloud\spk-data\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,21 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpkUserApplication">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.spk.data.bean.Test" />
-      <module name="spk-data" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.spk.data.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -234,7 +207,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.SpkUserApplication" />
       <item itemvalue="Spring Boot.SpkDataApplication" />
@@ -243,7 +215,6 @@
       <list>
         <item itemvalue="Spring Boot.SpkUserApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.SpkDataApplication" />
       </list>
     </recent_temporary>
@@ -298,7 +269,14 @@
       <workItem from="1592574379563" duration="5512000" />
       <workItem from="1594043145215" duration="5598000" />
       <workItem from="1594473130700" duration="5767000" />
-      <workItem from="1595237635785" duration="410000" />
+      <workItem from="1595237635785" duration="2715000" />
+      <workItem from="1595427781671" duration="2038000" />
+      <workItem from="1596803366353" duration="2321000" />
+      <workItem from="1597307151217" duration="151000" />
+      <workItem from="1597716758923" duration="2009000" />
+      <workItem from="1598409175927" duration="682000" />
+      <workItem from="1598952239843" duration="1590000" />
+      <workItem from="1600069907521" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="修改图标">
       <created>1566379358538</created>
@@ -539,6 +517,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599032787618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599032787618" />
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1592983356211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -555,50 +537,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1592983858533" />
+    <state x="466" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595425356981">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="466" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1595425356981" />
     <state width="477" height="466" key="DebuggerActiveHint" timestamp="1594555899772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="477" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1594555899772" />
-    <state width="1019" height="376" key="GridCell.Tab.0.bottom" timestamp="1595062042033">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1598093703646">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595062042033" />
-    <state width="1019" height="499" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1594556447733" />
-    <state width="1019" height="376" key="GridCell.Tab.0.center" timestamp="1595062042032">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598093703646" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1595426025314" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1598093703646">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595062042032" />
-    <state width="1019" height="499" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1594556447732" />
-    <state width="1019" height="376" key="GridCell.Tab.0.left" timestamp="1595062042032">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598093703646" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1595426025313" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1598093703645">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595062042032" />
-    <state width="1019" height="499" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1594556447731" />
-    <state width="1019" height="376" key="GridCell.Tab.0.right" timestamp="1595062042032">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598093703645" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1595426025312" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1598093703646">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595062042032" />
-    <state width="1019" height="499" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1594556447733" />
-    <state width="1019" height="376" key="GridCell.Tab.1.bottom" timestamp="1595062042034">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598093703646" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1595426025313" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1595426025317">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595062042034" />
-    <state width="1019" height="499" key="GridCell.Tab.1.bottom/0.23.1440.809@0.23.1440.809" timestamp="1594556447735" />
-    <state width="1019" height="376" key="GridCell.Tab.1.center" timestamp="1595062042033">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595425505361" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.809@0.23.1440.809" timestamp="1595426025317" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1595426025315">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595062042033" />
-    <state width="1019" height="499" key="GridCell.Tab.1.center/0.23.1440.809@0.23.1440.809" timestamp="1594556447734" />
-    <state width="1019" height="376" key="GridCell.Tab.1.left" timestamp="1595062042033">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595425505359" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.809@0.23.1440.809" timestamp="1595426025315" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1595426025315">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595062042033" />
-    <state width="1019" height="499" key="GridCell.Tab.1.left/0.23.1440.809@0.23.1440.809" timestamp="1594556447734" />
-    <state width="1019" height="376" key="GridCell.Tab.1.right" timestamp="1595062042034">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595425505359" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.809@0.23.1440.809" timestamp="1595426025315" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1595426025316">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1019" height="376" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595062042034" />
-    <state width="1019" height="499" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1594556447735" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595425505360" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1595426025316" />
     <state width="1019" height="376" key="GridCell.Tab.2.bottom" timestamp="1595062042036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -627,14 +613,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="328" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1594550082373" />
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1592318916849">
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1597801584555">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1592318916849" />
-    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1594213929179">
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1597801584555" />
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1600413195219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594213929179" />
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600413195219" />
     <state x="385" y="156" key="search.everywhere.popup/0.23.1440.809@0.23.1440.809" timestamp="1591888054507" />
   </component>
   <component name="debuggerHistoryManager">

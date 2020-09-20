@@ -81,7 +81,8 @@ public class JwtFilter implements Filter {
     public boolean checkToken(String token, HttpServletRequest request) {
         String response = restTemplate.postForObject(login_check_url, token, String.class);
         JSONObject dataMap = JSONObject.fromObject(response);
-        if (dataMap != null) return true;
+        if (dataMap != null)
+            return true;
         return false;
     }
 
