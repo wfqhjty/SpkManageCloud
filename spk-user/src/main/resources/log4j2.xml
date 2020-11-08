@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <property name="APP_NAME">spk-user</property>
+        <property name="LOG_HOME">~/Work/log</property>
+        <property name="springAppName">${bundle:application:spring.application.name}</property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile
+                name="FILE"
+                fileName="${LOG_HOME}/${APP_NAME}.log"
+                filePattern="${LOG_HOME}/${APP_NAME}-%d{{yyyy-MM-dd}-%i.log.gz"
+                ignoreExceptions="false">
+            <PatternLayout>
+                <!-- 日志格式定义 -->
+                <Pattern>%-5p %d{yyyy-MM-dd HH:mm:ss:SSS} [${springAppName},%X{X-B3-TraceId},%X{X-B3-SpanId}] [%thread] %X{currentUser} %c{0} %m %n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <!-- 按日志文件大小切分 -->
+                <SizeBasedTriggeringPolicy size="100MB" />
+                <!-- 按日期切分 -->
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+            <!-- 最大切分次数 -->
+            <DefaultRolloverStrategy max="10" />
+        </RollingFile>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%-5p %d{yyyy-MM-dd HH:mm:ss:SSS} [${springAppName},%X{X-B3-TraceId},%X{X-B3-SpanId}] [%thread] %X{currentUser} %c{0} %m %n</Pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <AsyncRoot level="INFO">
+            <AppenderRef ref="FILE"/>
+            <AppenderRef ref="CONSOLE"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>
